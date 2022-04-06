@@ -6,67 +6,62 @@ One person who has the IntelliJ IDE installed and running on their device needs 
 
 ## Hosting a Code With Me session
 
-You first need to open a project or create a new one to host a session. Check out this link for instructions.
-Once you have your IDE open, locate the top-right toolbar (Figure 1) 
+You first need to open a project or create a new one to host a session. Check out this [link](https://daquioag.github.io/team-SAL/docs/configuration/) for instructions.
+
+Once you have your IDE open, locate the top-right toolbar
 
 ![Figure 1](../assets/images/code_with_me/figure1.png)
 
-Figure 1: IntelliJ main project environment with the top-right toolbar emphasised with a red border.
-From the toolbar, open the Code With Me dropdown menu by clicking on the icon of two people. (Figure 2)
+
+1. From the toolbar, open the Code With Me dropdown menu by clicking on the icon of two people.
 
 ![Figure 2](../assets/images/code_with_me/figure2.png)
 
-Figure 2: IntelliJ's top-right toolbar with the Code With Me button emphasized with a red border. 
-Once the dropdown menu appears, choose Enable Access and Copy Invitation Link… (Figure 3) 
+
+2. Once the dropdown menu appears, choose **Enable Access and Copy Invitation Link…** 
 
 ![Figure 3](../assets/images/code_with_me/figure3.png)
 
-This will open a new window named Code With Me: Enable Access and Start Session, which lets you set permissions for participants that join your code with me session as a guest (Figure 4).
+This will open a new window named **Code With Me: Enable Access and Start Session**, which lets you set permissions for participants that join your code with me session as a guest:
 
 ![Figure 4](../assets/images/code_with_me/figure4.png)
 
-Figure 4: Code With Me: Enable Access and Start Session Window. 
-To have guests be able to write and execute code while working with you, choose the Full access option and click Enable Access (Figure 5). 
+3. To have guests be able to write and execute code while working with you, choose the **Full access** option and click **Enable Access**
 
 ![Figure 5](../assets/images/code_with_me/figure5.png)
 
-Figure 5: Code With Me: Enable Access and Start Session Window with Full access permissions option and Enable Access button toolbar emphasized with red borders. 
+```⚠️ WARNING: By giving guests full access, they can edit files, run code, and access the command line on your computer. Do not give this permission to guests you do not fully trust. You can give guests Read-only permissions if you want them to look at code that resides on your device, or you can customize their level of access by expanding the Permission Details menu.```
 
-WARNING: By giving guests full access, they can edit files, run code, and access the command line on your computer. Do not give this permission to guests you do not fully trust. You can give guests Read-only permissions if you want them to look at code that resides on your device, or you can customize their level of access by expanding the Permission Details menu.
-
-After you click Enable Access, IntelliJ automatically copies an invite link that you can send to other developers so they can join your session. If you lose this link, you can obtain it again by clicking the Code With Me icon on the top-left toolbar and selecting Copy Invitation Link… from the dropdown menu. (Figure 6)
+After you click Enable Access, IntelliJ automatically copies an invite link that you can send to other developers so they can join your session. If you lose this link, you can obtain it again by clicking the Code With Me icon on the top-left toolbar and selecting **Copy Invitation Link…** from the dropdown menu.
 
 ![Figure 6](../assets/images/code_with_me/figure6.png)
 
-Now you need to send the invitation link to another participant. Do this by pasting the link in a communication channel such as a chatroom or email.
+4. Now you need to send the invitation link to another participant. Do this by pasting the link in a communication channel such as a chatroom or email.
 
-Once a participant opens the invitation link on their end, a new window called Code With Me: Accept User will open on the host's computer. The host is then prompted to let the guest join the project. (Figure 7)
+Once a participant opens the invitation link on their end, a new window called **Code With Me: Accept User** will open on the host's computer. The host is then prompted to let the guest join the project.
 
-ATTENTION: As a host, you can ensure that the right person is joining your project by checking their user name and cross-checking their security code. 
+```⚠️ATTENTION: As a host, you can ensure that the right person is joining your project by checking their user name and cross-checking their security code.```
 
-To give a guest access to the project, click the Accept button in this window.\
+5. To give a guest access to the project, click the Accept button in this window.
 
 ![Figure 7](../assets/images/code_with_me/figure7.png)
 
-Figure 7: Code With Me: Accept User window with the Accept button emphasized with red borders.
-
-You will then see a notification on the bottom-right of your IDE, informing you that another user has joined (figure 8).
+You will then see a notification on the bottom-right of your IDE, informing you that another user has joined.
 
 ![Figure 8](../assets/images/code_with_me/figure8.png)
 
-Figure8: Code With Me user joined notification.
 
 ## Joining a Code With Me session as a guest
 
-Upon receiving the Code With Me invitation link from a host, input it into a web browser by pasting it into the address bar and pressing Enter.
+1. Upon receiving the Code With Me invitation link from a host, input it into a web browser by pasting it into the address bar and pressing Enter.
 
-The Code With Me invitation web page will open next. On this page, click on the download button to download the Code With Me Client Launcher (Figure 9)
+2. The Code With Me invitation web page will open next. On this page, click on the download button to download the Code With Me Client Launcher.
 
 ![Figure 9](../assets/images/code_with_me/figure9.png)
 
-Figure 9: Code With Me invitation web page with the download button emphasized with red borders.
+3. After downloading the Code With Me client launcher, open the file and wait for the installation to complete. 
 
-After downloading the Code With Me client launcher, open the file and wait for the installation to complete. Afterwards, you should be prompted with a window with the message "Waiting for host approval..". You can provide the host with the security code displayed on this page if needed. (Figure 10)
+Afterwards, you should be prompted with a window with the message **"Waiting for host approval.."**. You can provide the host with the security code displayed on this page if needed. 
 
 ![Figure 10](../assets/images/code_with_me/figure10.png)
 
