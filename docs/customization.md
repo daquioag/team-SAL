@@ -66,15 +66,15 @@ Create a GitHub account [here](https://github.com/join) if you do not already ha
 </p> -->
 
 
-![topBarMenu](../assets/images/VSC-images/VSC_4.png "topBarMenu")
-![ClickOnVSC](../assets/images/VSC-images/VSC_5.png "ClickOnVSC")
+![topBarMenu](../assets/images/VSC-images/VSC_4.png)
+![ClickOnVSC](../assets/images/VSC-images/VSC_5.png)
 
 
 #### 3. Press on Add Account.
 
 It will bring you to a drop-down menu, but let us connect by logging into your GitHub account. 
 
->![addAccount](../assets/images/VSC-images/VSC_7.png "addAccount")
+>![addAccount](../assets/images/VSC-images/VSC_7.png)
 
 
 <!-- <p align="center">
@@ -92,41 +92,41 @@ It will bring you to a drop-down menu, but let us connect by logging into your G
 
 #### 4 Log in using your Github Account
 
->![addAccount](../assets/images/VSC-images/VSC_8.png "addAccount")
+>![addAccount](../assets/images/VSC-images/VSC_8.png)
 
   
 after logging in, you can close the web browser. You will be redirected back to IntelliJ with the following window, of which just press Share
 
 #### 5. Press Share
 
->![addAccount](../assets/images/VSC-images/VSC_9.png "addAccount")
+>![addAccount](../assets/images/VSC-images/VSC_9.png)
 
   
 #### 6. Type a meaningful Commit MEssage and check the files you want to add to your GitHub.
   
->![addAccount](../assets/images/VSC-images/VSC_10.png "addAccount")
+>![addAccount](../assets/images/VSC-images/VSC_10.png)
 
   
 #### 7. You should be brought back to the main window. Now PRess commit on the left-hand side of the screen.
   
->![commitMenu](../assets/images/VSC-images/VSC_11.png "commitMenu")
+>![commitMenu](../assets/images/VSC-images/VSC_11.png)
 
 #### 8. Check the file you want to push to your GitHub repository. Type a meaningful commit message.
 
   
->![CommitPush](../assets/images/VSC-images/VSC_12.png "CommitPush")
+>![CommitPush](../assets/images/VSC-images/VSC_12.png)
 
 
 #### 9. Open your Github repository on a web browser. and click on the file location of the project, which is located on the left-hand side of the commit message list.
 
->![goToGitHub](../assets/images/VSC-images/VSC_13.png "goToGitHub")
+>![goToGitHub](../assets/images/VSC-images/VSC_13.png)
 
 
 You should be able to see 4 things 
-1) the name of the project
-2) the file you committed and pushed
-3) your commit message
-4) the file itself
+1) the name of the project  
+2) the file you committed and pushed  
+3) your commit message  
+4) the file itself  
 
 >![checkProject](../assets/images/VSC-images/VSC_14.png "checkProject")
 
