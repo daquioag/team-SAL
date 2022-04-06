@@ -51,7 +51,7 @@ Create a GitHub account [here](https://github.com/join) if you do not already ha
 </p>
  -->
  
-![addAccount](https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_2.png "addAccount")
+![chooseProject](../assets/images/VSC-images/VSC_2.png)
 
 
 #### 2. Navigate to the VSC tab in the top menu bar and click on Share Project on GitHub
@@ -66,8 +66,8 @@ Create a GitHub account [here](https://github.com/join) if you do not already ha
 </p> -->
 
 
-![addAccount](../assets/images/VSC-images/VSC_4.png "addAccount")
-![addAccount](../assets/images/VSC-images/VSC_5.png "addAccount")
+![topBarMenu](../assets/images/VSC-images/VSC_4.png "topBarMenu")
+![ClickOnVSC](../assets/images/VSC-images/VSC_5.png "ClickOnVSC")
 
 
 #### 3. Press on Add Account.
@@ -109,17 +109,17 @@ after logging in, you can close the web browser. You will be redirected back to 
   
 #### 7. You should be brought back to the main window. Now PRess commit on the left-hand side of the screen.
   
->![addAccount](../assets/images/VSC-images/VSC_11.png "addAccount")
+>![commitMenu](../assets/images/VSC-images/VSC_11.png "commitMenu")
 
 #### 8. Check the file you want to push to your GitHub repository. Type a meaningful commit message.
 
   
->![addAccount](../assets/images/VSC-images/VSC_12.png "addAccount")
+>![CommitPush](../assets/images/VSC-images/VSC_12.png "CommitPush")
 
 
 #### 9. Open your Github repository on a web browser. and click on the file location of the project, which is located on the left-hand side of the commit message list.
 
->![addAccount](../assets/images/VSC-images/VSC_13.png "addAccount")
+>![goToGitHub](../assets/images/VSC-images/VSC_13.png "goToGitHub")
 
 
 You should be able to see 4 things 
@@ -128,7 +128,7 @@ You should be able to see 4 things
 3) your commit message
 4) the file itself
 
->![addAccount](../assets/images/VSC-images/VSC_14.png "addAccount")
+>![checkProject](../assets/images/VSC-images/VSC_14.png "checkProject")
 
 
 
