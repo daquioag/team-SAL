@@ -14,14 +14,11 @@ Hi everyone, we are here to help walk you through using IntelliJ, which is a pow
 
 ---
 
-TABLE OF CONTENTS 
-- What is an IDE
-- Java
-- Intended Users
-- Required Software
-- System Requirements
-- Typographic Conventions
-- Notes and Warnings
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 --- 
 
