@@ -24,48 +24,62 @@ The first method of starting a new programming project is creating one locally. 
 
 2. Once IntelliJ is open, click the “New Project” button on the top right of the screen.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_project_1.png" alt="new_project_1" width="500">
-</p>
+</p> -->
+
+![new_project_1](../assets/images/new_project_img/new_project_1.png)
 
 3. This will open up a new project interface that asks you for a Project SDK and additional libraries/frameworks. Click the dropdown menu to select a JDK version (this should already be installed from the preliminary requirements). In this case, we will select JDK 17. Click the “Next” button to confirm.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_project_2.png" alt="new_project_2" width="500">
-</p>
+</p> -->
+
+![new_project_2](../assets/images/new_project_img/new_project_2.png)
 
 4. IntelliJ will ask if you want to create a project from an existing template, we will skip this and press “Next”.
     
 5. In this stage, IntelliJ will ask for a project name and location. Input a name into the “Project name” text field. You can accept the default directory location for your project, or select a specific directory by pressing the “...” adjacent to the “Project location” field. Accept all default values under “More settings” and press “Finish”
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_project_4.png" alt="new_project_4" width="500">
-</p>
+</p> -->
+
+![new_project_4](../assets/images/new_project_img/new_project_4.png)
 
 6. A new window containing your new project should pop up. Now we need to create your very first Class, which is the foundation of all programs in Java.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_project_5.png" alt="new_project_5" width="800">
-</p>
+</p> -->
+
+![new_project_5](../assets/images/new_project_img/new_project_5.png)
 
 7. On the left-hand side of your screen, find the directory called “src”. This looks like a small blue folder. Right-click on it and hover over “New”, then select “Java Class”.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_project_7.png" alt="new_project_7" width="800">
-</p>
+</p> -->
+
+![new_project_7](../assets/images/new_project_img/new_project_7.png)
 
 8. A small window will appear, prompting you to give a name to your Class. Let’s enter “HelloWorld” into this field and press <code>enter</code>.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_project_8.png" alt="new_project_8" width="300">
-</p>
+</p> -->
+
+![new_project_8](../assets/images/new_project_img/new_project_8.png)
 
 9. Congratulations! You just created your first Java program along with its first Class!
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_project_9.png" alt="new_project_9" width="800">
 </p>
-
+ -->
+ 
+ ![new_project_9](../assets/images/new_project_img/new_project_9.png)
 
 ## Cloning a New Project from GitHub
 
@@ -77,39 +91,49 @@ To start this process, there are a few things we need to prepare, namely connect
 
 2. A new window will pop up requesting Version control, URL, and directory.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_vcs_1.png" alt="new_vcs_1" width="800">
-</p>
+</p> -->
+
+![new_vcs_1](../assets/images/new_project_img/new_vcs_1.png)
 
 3. Select Git for the version control field.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_vcs_2.png" alt="new_vcs_2" width="600">
-</p>
+</p> -->
+
+![new_vcs_2](../assets/images/new_project_img/new_vcs_2.png)
 
 4. Navigate to a GitHub project you would like to clone.
 
 5. Click the green “Code” button and copy the HTTPS URL to your clipboard. This is a unique link that is connected to your specific GitHub repository.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_vcs_3.png" alt="new_vcs_3" width="800">
 </p>
+ -->
 
+![new_vcs_3](../assets/images/new_project_img/new_vcs_3.png)
 
 6. Paste this URL into the “URL” field in the IntelliJ window.
     
 7. You can select a specific directory to save your project in by clicking the folder icon adjacent to the directory field, or you can simply accept the default location that is automatically generated.
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_vcs_4.png" alt="new_vcs_4" width="600">
-</p>
+</p> -->
+
+![new_vcs_4](../assets/images/new_project_img/new_vcs_4.png)
 
 8. Click the “Clone” button, and congratulations! You just successfully cloned your first project!
     
-<p align="center">
+<!-- <p align="center">
   <img src="../assets/images/new_project_img/new_vcs_5.png" alt="new_vcs_5" width="800">
 </p>
-
+ -->
+ 
+ ![new_vcs_5](../assets/images/new_project_img/new_vcs_5.png)
 
 
 Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
