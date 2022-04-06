@@ -1,16 +1,16 @@
 # Code With Me 
-Code With Me is a feature in IntelliJ and other JetBrains IDEs that enables developers to collaborate on a project. This is achieved by giving one or more developers access to the development environment that a host developer is working on. The participants can view, edit and run code based on the level of access that the host has given them. The Code With Me feature enables developers to pair-program or review each other's code with ease.
+   Code With Me is a feature in IntelliJ and other JetBrains IDEs that enables developers to collaborate on a project. This is achieved by giving one or more developers access to the development environment that a host developer is working on. The participants can view, edit and run code based on the level of access that the host has given them. The Code With Me feature enables developers to pair-program or review each other's code with ease.
 
 ## Setting up the Code With Me environment 
-One person who has the IntelliJ IDE installed and running on their device needs to become the host to enable this feature. The host computer is the device that holds the project files and is used to execute the project.
+   One person who has the IntelliJ IDE installed and running on their device needs to become the host to enable this feature. The host computer is the device that holds the project files and is used to execute the project.
 
 ## Hosting a Code With Me session
 
-You first need to open a project or create a new one to host a session. Check out this [link](https://daquioag.github.io/team-SAL/docs/configuration/) for instructions.
+   You first need to open a project or create a new one to host a session. Check out this [link](https://daquioag.github.io/team-SAL/docs/configuration/) for instructions.
 
-Once you have your IDE open, locate the top-right toolbar
+   Once you have your IDE open, locate the top-right toolbar
 
-![Figure 1](../assets/images/code_with_me/figure1.png)
+   ![Figure 1](../assets/images/code_with_me/figure1.png)
 
 
 1. From the toolbar, open the Code With Me dropdown menu by clicking on the icon of two people.
