@@ -15,6 +15,122 @@ nav_order: 6
 
 ---
 
+---
+layout: default
+title: Version Control: Sharing a project on Github
+nav_order: 6
+---
+
+# Adding Version Control To a Current Project
+{: .no_toc }
+---
+Adding version control helps keep track of changes by allowing contributors to push code with commit messages describing the changes. A commit message is a form of documentation that allows other team members to understand the changes that were made. Version control also allows for reviewing previous changes and old code blocks. The ability to review old code acts as a safety net in the case of future changes that may break the program, so having version control allows contributors to go back and change back the program to a point where it was functional. 
+<!-- ## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc} -->
+
+---
+## Adding a Java Project to your Github 
+This instruction set shows you how to:
+- Adding Version Control to IntelliJ
+- Sharing a project on your Github
+- Committing and Pushing a Project 
+
+Create a GitHub account [here](https://github.com/join) if you do not already have one. 
+
+#### 1. Click on the File that is to be shared
+
+<p align="center">
+  <img src="../assets/images/vcs-images/Configuration_2.png" alt="VSC1" width="500">
+</p>
+
+#### 2. Navigate to the VSC tab in the top menu bar and click on Share Project on GitHub
+
+<p align="Left">
+  <img src="../assets/images/vcs-images/Configuration_3.png" alt="VSC2" width="500">
+  <img src="../assets/images/vcs-images/Configuration_4.png" alt="VSC3" width="500">
+</p>
+
+#### 3. Press on Add Account.
+
+<p align="center">
+  <img src="../assets/images/vcs-images/Configuration_5.png" alt="VSC4" width="500">
+</p>
+
+It will bring you to a drop-down menu, but let us connect by logging into your GitHub account. 
+
+<p align="center">
+  <img src="../assets/images/vcs-images/Configuration_6.1.png" alt="VSC4" width="500">
+</p>
+
+
+#### 3 Click Sign in using GitHub and it will redirect you to a web page asking you to log into GitHub
+
+You will see the following message, and just press the folloiwing button: 
+
+  <p align="center">
+  <img src="../assets/images/vcs-images/Configuration_7.1.png" alt="VSC4" width="500">
+</p
+
+
+#### 4 Log in using your Github Account
+
+  <p align="center">
+  <img src="../assets/images/vcs-images/Configuration_7.1.png" alt="VSC4" width="500">
+</p
+  
+after logging in, you can close the web browser. You will be redirected back to IntelliJ with the following window, of which just press Share
+
+#### 5. Press Share
+
+  <p align="center">
+  <img src="../assets/images/vcs-images/Configuration_8.png" alt="VSC4" width="500">
+</p
+  
+#### 6. Type a meaningful Commit MEssage and check the files you want to add to your GitHub.
+  
+<p align="center">
+  <img src="../assets/images/vcs-images/Configuration_9.png" alt="VSC4" width="500">
+</p
+  
+#### 7. You should be brought back to the main window. Now PRess commit on the left-hand side of the screen.
+  
+<p align="center">
+  <img src="../assets/images/vcs-images/Configuration_10.png" alt="VSC4" width="500">
+</p
+  
+#### 8. Check the file you want to push to your GitHub repository. Type a meaningful commit message.
+  
+  <p align="center">
+  <img src="../assets/images/vcs-images/Configuration_11.png" alt="VSC4" width="500">
+</p
+
+#### 9. Press commit and push.
+
+ <p align="center">
+  <img src="../assets/images/vcs-images/Configuration_11.png" alt="VSC4" width="500">
+</p
+ 
+#### 10. Open your Github repository on a web browser. and click on the file location of the project, which is located on the left-hand side of the commit message list.
+<p align="center">
+  <img src="../assets/ImagesOfAl/Configuration_12.png" alt="new_project_2" width="500">
+</p>
+
+
+You should be able to see 4 things 
+1) the name of the project
+2) the file you committed and pushed
+3) your commit message
+4) the file itself
+
+<p align="center">
+  <img src="../assets/ImagesOfAl/Configuration_13.png" alt="new_project_2" width="500">
+</p>
+
+
+
 ## Color schemes
 
 {: .d-inline-block }
