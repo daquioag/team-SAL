@@ -106,25 +106,35 @@ You should see your GitHub account URL  in the text box labeled "Share by: "
 
 >![addAccount](../assets/images/VSC-images/VSC_9.png)
 
-You should a "Add Files For Initial Commit" window where you can see all your project files.
+You should see a "Add Files For Initial Commit" window where you can see all your project files.
 
   
 6. Check the projects files you want to add to your GitHub and type a meaningful commit message under the "Commit Message" text box.
   
+  Press the "Add" button. 
+  
 >![addAccount](../assets/images/VSC-images/VSC_10.png)
 
+  You should be brought back to the main window.
   
-7. You should be brought back to the main window. Now Press the commit tab on the left-hand side of the screen.
+7. Press the commit tab on the left-hand side edge of the screen.
   
 >![commitMenu](../assets/images/VSC-images/VSC_11.png)
 
-#### 8. Check the file you want to push to your GitHub repository. Type a meaningful commit message.
+You should see a "Commit to Master" window.
 
-  
+8. Follow the folowing steps to commit and push the desired files to GitHub.
+   
+   1) Check the file you want to push to your GitHub repository.   
+   2) Type a meaningful commit message.  
+   3) Press the "Commit and Push..." button.  
+
 >![CommitPush](../assets/images/VSC-images/VSC_12.png)
 
 
-#### 9. Open your Github repository on a web browser. and click on the file location of the project, which is located on the left-hand side of the commit message list.
+## How to Check if the project files are uploaded to gitHub.
+
+1. Open your Github repository on a web browser. and click on the file location of the project, which is located on the left-hand side of the commit message list.
 
 >![goToGitHub](../assets/images/VSC-images/VSC_13.png)
 
@@ -133,7 +143,7 @@ You should be able to see 4 things
 1) the name of the project  
 2) the file you committed and pushed  
 3) your commit message  
-4) the file itself  
+4) the file itself   
 
 >![checkProject](../assets/images/VSC-images/VSC_14.png)
 
