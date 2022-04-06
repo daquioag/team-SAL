@@ -42,72 +42,79 @@ This instruction set shows you how to:
 - Sharing a project on your Github
 - Committing and Pushing a Project 
 
-Create a GitHub account [here](https://github.com/join) if you do not already have one. 
+Create a GitHub account [here](https://github.com/join) if you do not already have one.   
+Create a JetBrains account [here](https://account.jetbrains.com/login) if you do not already have one.   
 
-#### 1. Click on the  Project File that is to be shared
 
-<!-- <p align="center">
-  <img src="https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_2.png" alt="VSC1" width="500">
-</p>
- -->
- 
+
+
+1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application.  
+ On Mac, press <code>cmd</code> + <code>space</code> and type in IntelliJ, press enter to open the application.
+
+
+You will be brought to a "Welcome to IntelliJ IDEA" window.
+
+2. Click on the  Project File that you to add version control to. 
+
 ![chooseProject](../assets/images/VSC-images/VSC_2.png)
 
 
-#### 2. Navigate to the VSC tab in the top menu bar and click on Share Project on GitHub
-
-<!-- <p align="Left">
-  <img src="../assets/images/VSC-images/VSC_4.png" alt="VSC4" width="500">
-  <img src="../assets/images/vcs-images/VSC_3.png" alt="VSC3" width="500">
-</p>
-
-<p align="center">
-  <img src="../assets/images/vcs-images/VSC_5.png" alt="VSC5" width="500">
-</p> -->
+2. Navigate to the VSC tab in the top menu bar click on Share Project on GitHub. 
 
 
 ![topBarMenu](../assets/images/VSC-images/VSC_4.png)
+
+Click on Share Project on GitHub.  
+
 ![ClickOnVSC](../assets/images/VSC-images/VSC_5.png)
 
+A "Share Project On GitHub" window will pop-up.
 
-#### 3. Press on Add Account.
+3. Click on "Add Account" in the "Share Project On GitHub" window.
 
-It will bring you to a drop-down menu, but let us connect by logging into your GitHub account. 
+It will bring you to a drop-down menu, but let us connect by logging into your GitHub account.   
+
+4. Click on "Log in via GitHub..."
 
 >![addAccount](../assets/images/VSC-images/VSC_7.png)
 
 
-<!-- <p align="center">
-  <img src="../assets/images/VSC-images/VSC_7.png" alt="VSC7" width="500">
-</p> -->
+You will be redirected to the following JetBrains web browser.
 
-#### 3 Click Sign in using GitHub and it will redirect you to a web page asking you to log into GitHub
+>![addAccount](../assets/images/VSC-images/VSC_15.png)
 
-<!-- You will see the following message, and just press the folloiwing button: 
+4. Log in using your Github Account
 
-  <p align="center">
-  <img src="../assets/images/vcs-images/Configuration_7.1.png" alt="VSC4" width="500">
-</p
- -->
+Click "Authorize in GitHub" and it will ask you to log into GitHub.
+Add in your GitHub log-in information and click on "Sign in".  
 
-#### 4 Log in using your Github Account
 
 >![addAccount](../assets/images/VSC-images/VSC_8.png)
 
   
-after logging in, you can close the web browser. You will be redirected back to IntelliJ with the following window, of which just press Share
+After logging in, and seeing the "You have been successfully authorized in GitHub" message, you can close the web browser. 
 
-#### 5. Press Share
+>![addAccount](../assets/images/VSC-images/VSC_16.png)
+
+
+Navtigate back to IntelliJ, and you will see the the "Share Project On GitHub" window in IntelliJ.
+You should see your GitHub account URL  in the text box labeled "Share by: "
+
+
+5. Press Share in the  "Share Project On GitHub" window
+
 
 >![addAccount](../assets/images/VSC-images/VSC_9.png)
 
+You should a "Add Files For Initial Commit" window where you can see all your project files.
+
   
-#### 6. Type a meaningful Commit MEssage and check the files you want to add to your GitHub.
+6. Check the projects files you want to add to your GitHub and type a meaningful commit message under the "Commit Message" text box.
   
 >![addAccount](../assets/images/VSC-images/VSC_10.png)
 
   
-#### 7. You should be brought back to the main window. Now PRess commit on the left-hand side of the screen.
+7. You should be brought back to the main window. Now Press the commit tab on the left-hand side of the screen.
   
 >![commitMenu](../assets/images/VSC-images/VSC_11.png)
 
