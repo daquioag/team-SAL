@@ -5,13 +5,13 @@ nav_order: 6
 ---
 
 # Customization
-{: .no_toc }
-
-## Table of contents
+<!-- {: .no_toc }
+ -->
+<!-- ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+{:toc} -->
 
 ---
 
@@ -42,11 +42,12 @@ Create a GitHub account [here](https://github.com/join) if you do not already ha
 
 #### 1. Click on the  Project File that is to be shared
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_2.png" alt="VSC1" width="500">
 </p>
-
->![addAccount](https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_2.png "addAccount")
+ -->
+ 
+![addAccount](https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_2.png "addAccount")
 
 
 #### 2. Navigate to the VSC tab in the top menu bar and click on Share Project on GitHub
@@ -61,8 +62,8 @@ Create a GitHub account [here](https://github.com/join) if you do not already ha
 </p> -->
 
 
->![addAccount](https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_4.png "addAccount")
->![addAccount](https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_5.png "addAccount")
+![addAccount](https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_4.png "addAccount")
+![addAccount](https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_5.png "addAccount")
 
 
 #### 3. Press on Add Account.
