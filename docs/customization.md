@@ -22,9 +22,13 @@ nav_order: 6
 ---
 
 # Adding Version Control To a Current Project
-{: .no_toc }
+
+<!-- {: .no_toc } -->
+
 ---
 Adding version control helps keep track of changes by allowing contributors to push code with commit messages describing the changes. A commit message is a form of documentation that allows other team members to understand the changes that were made. Version control also allows for reviewing previous changes and old code blocks. The ability to review old code acts as a safety net in the case of future changes that may break the program, so having version control allows contributors to go back and change back the program to a point where it was functional. 
+
+
 <!-- ## Table of contents
 {: .no_toc .text-delta }
 
@@ -128,7 +132,7 @@ You should be able to see 4 things
 
 
 
-
+<!-- 
 ## Color schemes
 
 {: .d-inline-block }
@@ -221,7 +225,7 @@ This will allow for all overrides to be kept in a single file, and for any upstr
 For example, if you'd like to add your own styles for printing a page, you could add the following styles.
 
 #### Example
-{: .no_toc }
+{: .no_toc } -->
 
 ```scss
 // Print-only styles.
