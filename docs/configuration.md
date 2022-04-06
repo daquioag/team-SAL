@@ -1,11 +1,59 @@
 ---
 layout: default
-title: Configuration
+title: Creating a New Project
 nav_order: 2
 ---
 
-# Configuration
+# Creating a New Project
 {: .no_toc }
+
+## Overview
+Creating a new programming project can be challenging, but an IDE like IntelliJ can help streamline your workflows and help you start a new project quickly. One of the benefits of IntelliJ is the usage of a Guided User Interface (GUI) for many coding editor features. A GUI is a form of user interface that allows the user to perform actions by directly manipulating graphical elements. For example, rather than performing several actions to complete a task, a simple button press in IntelliJ can accomplish everything. 
+
+We will be using IntelliJ’s GUI to create a new programming project in two ways: creating a local project from scratch or cloning a project from an existing repository on Github. Cloning a project means copying a project stored on the GitHub cloud, and downloading it to your local machine.
+
+Hopefully, IntelliJ can help you streamline your programming and help you start a coding project swiftly and smoothly!
+
+## Creating a New Local Project
+The first method of starting a new programming project is creating one locally. This means creating a project from scratch without having the involvement of a version control system like GitHub. Creating a local project is an excellent way to start coding immediately on a smaller project. You don’t need to spend time setting up version control and can start coding immediately!
+
+1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application. On Mac, press <code>cmd</code> + <code>space</code> and type in IntelliJ, press enter to open the application.
+
+
+2. Once IntelliJ is open, click the “New Project” button on the top right of the screen.
+
+![new_project_1](../assets/images/new_project_img/new_project_1.png)
+
+3. This will open up a new project interface that asks you for a Project SDK and additional libraries/frameworks. Click the dropdown menu to select a JDK version (this should already be installed from the preliminary requirements). In this case, we will select JDK 17. Click the “Next” button to confirm.
+
+![new_project_2](../assets/images/new_project_img/new_project_2.png)
+
+4. IntelliJ will ask if you want to create a project from an existing template, we will skip this and press “Next”.
+
+![new_project_3](../assets/images/new_project_img/new_project_3.png)
+
+5. In this stage, IntelliJ will ask for a project name and location. Input a name into the “Project name” text field. You can accept the default directory location for your project, or select a specific directory by pressing the “...” adjacent to the “Project location” field. Accept all default values under “More settings” and press “Finish”
+
+![new_project_4](../assets/images/new_project_img/new_project_4.png)
+
+6. A new window containing your new project should pop up. Now we need to create your very first Class, which is the foundation of all programs in Java.
+
+![new_project_5](../assets/images/new_project_img/new_project_5.png)
+
+7. On the left-hand side of your screen, find the directory called “src”. This looks like a small blue folder. Right-click on it and hover over “New”, then select “Java Class”.
+
+![new_project_7](../assets/images/new_project_img/new_project_7.png)
+
+8. A small window will appear, prompting you to give a name to your Class. Let’s enter “HelloWorld” into this field and press <code>enter</code>.
+
+![new_project_8](../assets/images/new_project_img/new_project_8.png)
+
+9. Congratulations! You just created your first Java program along with its first Class!
+
+![new_project_9](../assets/images/new_project_img/new_project_9.png)
+
+
+
 
 Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
 {: .fs-6 .fw-300 }
