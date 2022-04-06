@@ -8,6 +8,7 @@ nav_order: 2
 {: .no_toc }
 
 ## Overview
+
 Creating a new programming project can be challenging, but an IDE like IntelliJ can help streamline your workflows and help you start a new project quickly. One of the benefits of IntelliJ is the usage of a Guided User Interface (GUI) for many coding editor features. A GUI is a form of user interface that allows the user to perform actions by directly manipulating graphical elements. For example, rather than performing several actions to complete a task, a simple button press in IntelliJ can accomplish everything. 
 
 We will be using IntelliJ’s GUI to create a new programming project in two ways: creating a local project from scratch or cloning a project from an existing repository on Github. Cloning a project means copying a project stored on the GitHub cloud, and downloading it to your local machine.
@@ -15,43 +16,99 @@ We will be using IntelliJ’s GUI to create a new programming project in two way
 Hopefully, IntelliJ can help you streamline your programming and help you start a coding project swiftly and smoothly!
 
 ## Creating a New Local Project
+
 The first method of starting a new programming project is creating one locally. This means creating a project from scratch without having the involvement of a version control system like GitHub. Creating a local project is an excellent way to start coding immediately on a smaller project. You don’t need to spend time setting up version control and can start coding immediately!
 
 1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application. On Mac, press <code>cmd</code> + <code>space</code> and type in IntelliJ, press enter to open the application.
 
 
 2. Once IntelliJ is open, click the “New Project” button on the top right of the screen.
-
-![new_project_1](../assets/images/new_project_img/new_project_1.png)
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_project_1.png" alt="new_project_1" width="500">
+</p>
 
 3. This will open up a new project interface that asks you for a Project SDK and additional libraries/frameworks. Click the dropdown menu to select a JDK version (this should already be installed from the preliminary requirements). In this case, we will select JDK 17. Click the “Next” button to confirm.
-
-![new_project_2](../assets/images/new_project_img/new_project_2.png)
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_project_2.png" alt="new_project_2" width="500">
+</p>
 
 4. IntelliJ will ask if you want to create a project from an existing template, we will skip this and press “Next”.
-
-![new_project_3](../assets/images/new_project_img/new_project_3.png)
-
+    
 5. In this stage, IntelliJ will ask for a project name and location. Input a name into the “Project name” text field. You can accept the default directory location for your project, or select a specific directory by pressing the “...” adjacent to the “Project location” field. Accept all default values under “More settings” and press “Finish”
-
-![new_project_4](../assets/images/new_project_img/new_project_4.png)
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_project_4.png" alt="new_project_4" width="500">
+</p>
 
 6. A new window containing your new project should pop up. Now we need to create your very first Class, which is the foundation of all programs in Java.
-
-![new_project_5](../assets/images/new_project_img/new_project_5.png)
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_project_5.png" alt="new_project_5" width="800">
+</p>
 
 7. On the left-hand side of your screen, find the directory called “src”. This looks like a small blue folder. Right-click on it and hover over “New”, then select “Java Class”.
-
-![new_project_7](../assets/images/new_project_img/new_project_7.png)
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_project_7.png" alt="new_project_7" width="800">
+</p>
 
 8. A small window will appear, prompting you to give a name to your Class. Let’s enter “HelloWorld” into this field and press <code>enter</code>.
-
-![new_project_8](../assets/images/new_project_img/new_project_8.png)
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_project_8.png" alt="new_project_8" width="300">
+</p>
 
 9. Congratulations! You just created your first Java program along with its first Class!
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_project_9.png" alt="new_project_9" width="800">
+</p>
 
-![new_project_9](../assets/images/new_project_img/new_project_9.png)
 
+## Cloning a New Project from GitHub
+
+Although creating a new local project can be a quick way to start coding, “ cloning” a project can be a quick way to jump into an already existing project. When working on a larger project with several contributors, it is important to keep a collection of save files to maintain your work. Think of GitHub as a cloud storage system that stores the save files to your project. When we “clone” a project from GitHub, we are grabbing a project saved on the cloud and loading it on our local machine. 
+
+To start this process, there are a few things we need to prepare, namely connecting your GitHub account to IntelliJ. Please see the instructions on how to connect IntelliJ with GitHub before we begin.
+
+1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application. On Mac, press <code>cmd</code> + <code>space</code> and type in IntelliJ, press enter to open the application. On the top right of the screen, select the “Get from VCS” button.
+
+2. A new window will pop up requesting Version control, URL, and directory.
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_vcs_1.png" alt="new_vcs_1" width="800">
+</p>
+
+3. Select Git for the version control field.
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_vcs_2.png" alt="new_vcs_2" width="600">
+</p>
+
+4. Navigate to a GitHub project you would like to clone.
+
+5. Click the green “Code” button and copy the HTTPS URL to your clipboard. This is a unique link that is connected to your specific GitHub repository.
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_vcs_3.png" alt="new_vcs_3" width="800">
+</p>
+
+
+6. Paste this URL into the “URL” field in the IntelliJ window.
+    
+7. You can select a specific directory to save your project in by clicking the folder icon adjacent to the directory field, or you can simply accept the default location that is automatically generated.
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_vcs_4.png" alt="new_vcs_4" width="600">
+</p>
+
+8. Click the “Clone” button, and congratulations! You just successfully cloned your first project!
+    
+<p align="center">
+  <img src="../assets/images/new_project_img/new_vcs_5.png" alt="new_vcs_5" width="800">
+</p>
 
 
 
