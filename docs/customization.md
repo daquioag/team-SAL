@@ -43,21 +43,19 @@ Create a GitHub account [here](https://github.com/join) if you do not already ha
 #### 1. Click on the File that is to be shared
 
 <p align="center">
-  <img src="../assets/images/vcs-images/Configuration_2.png" alt="VSC1" width="500">
+  <img src="https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_1.png" alt="VSC1" width="500">
 </p>
 
 #### 2. Navigate to the VSC tab in the top menu bar and click on Share Project on GitHub
 
 <p align="Left">
-  <img src="../assets/images/vcs-images/Configuration_3.png" alt="VSC2" width="500">
+  <img src="https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_1.png" alt="VSC2" width="500">
   <img src="../assets/images/vcs-images/Configuration_4.png" alt="VSC3" width="500">
 </p>
 
 #### 3. Press on Add Account.
 
-<p align="center">
-  <img src="../assets/images/vcs-images/Configuration_5.png" alt="VSC4" width="500">
-</p>
+>![addAccount](https://github.com/daquioag/team-SAL/blob/gh-pages/assets/images/VSC-images/VSC_3.png "addAccount")
 
 It will bring you to a drop-down menu, but let us connect by logging into your GitHub account. 
 
