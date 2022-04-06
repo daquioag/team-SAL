@@ -25,7 +25,7 @@ The first method of starting a new programming project is creating one locally. 
 2. Once IntelliJ is open, click the “New Project” button on the top right of the screen.
     
 <p align="center">
-  <img src="../assets/images/new_project_img/new_project_1.png" alt="new_project_1" width="500">
+  <img src="../assets/images/new_project_img/new_project_1.PNG" alt="new_project_1" width="500">
 </p>
 
 3. This will open up a new project interface that asks you for a Project SDK and additional libraries/frameworks. Click the dropdown menu to select a JDK version (this should already be installed from the preliminary requirements). In this case, we will select JDK 17. Click the “Next” button to confirm.
