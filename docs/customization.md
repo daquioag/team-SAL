@@ -128,7 +128,7 @@ You should be able to see 4 things
 3) your commit message  
 4) the file itself  
 
->![checkProject](../assets/images/VSC-images/VSC_14.png "checkProject")
+>![checkProject](../assets/images/VSC-images/VSC_14.png)
 
 
 
