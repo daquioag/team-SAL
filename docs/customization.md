@@ -20,17 +20,24 @@ title: Version Control: Sharing a project on Github
 nav_order: 6 -->
 ---
 
-# Version Control and Projects
+# Version Control and Projects  
+##### This instruction set shows you how to:
+- Add Version Control to a project through IntelliJ
+- Share a Java Project to your Github
+This instruction set works with the project created in [Creating a New Project](https://github.com/daquioag/team-SAL/blob/gh-pages/docs/configuration.md)
+ or any other local project from IntelliJ. 
 
 <!-- {: .no_toc } -->
 
 ##### Why should we use implement version control to our projects?   
 Adding version control helps keep track of changes by allowing contributors to push code with commit messages describing the changes. Version control also allows for reviewing previous changes and old code blocks. The ability to review old code acts as a safety net in the case of future changes that may break the program, so having version control allows contributors to go back and change back the program to a point where it was functional. 
 
-##### This instruction set shows you how to:
-- Add Version Control to a project through IntelliJ
-- Share a Java Project to your Github
+### Notes:
+This instruction set was created using the *Ultimate* Version of the IntelliJ IDEA.
 
+You will need a Git   
+Create a GitHub account [here](https://github.com/join) if you do not already have one.   
+Create a JetBrains account [here](https://account.jetbrains.com/login) if you do not already have one. 
 <!-- ## Table of contents
 {: .no_toc .text-delta }
 
@@ -39,8 +46,7 @@ Adding version control helps keep track of changes by allowing contributors to p
 
 ---
 ## Adding Version Control to a project through IntelliJ
-Create a GitHub account [here](https://github.com/join) if you do not already have one.   
-Create a JetBrains account [here](https://account.jetbrains.com/login) if you do not already have one.   
+  
 
 
 1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application.  
