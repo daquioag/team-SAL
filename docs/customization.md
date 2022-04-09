@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Customization
+title: Adding Version Control to a project
 nav_order: 6
 ---
 
-# Customization
+<!-- # Customization -->
 <!-- {: .no_toc }
  -->
 <!-- ## Table of contents
@@ -12,22 +12,24 @@ nav_order: 6
 
 1. TOC
 {:toc} -->
-
+<!-- 
 ---
 
----
 layout: default
 title: Version Control: Sharing a project on Github
-nav_order: 6
+nav_order: 6 -->
 ---
 
-# Adding Version Control To a Current Project
+# Version Control and Projects
 
 <!-- {: .no_toc } -->
 
----
-Adding version control helps keep track of changes by allowing contributors to push code with commit messages describing the changes. A commit message is a form of documentation that allows other team members to understand the changes that were made. Version control also allows for reviewing previous changes and old code blocks. The ability to review old code acts as a safety net in the case of future changes that may break the program, so having version control allows contributors to go back and change back the program to a point where it was functional. 
+##### Why should we use implement version control to our projects?   
+Adding version control helps keep track of changes by allowing contributors to push code with commit messages describing the changes. Version control also allows for reviewing previous changes and old code blocks. The ability to review old code acts as a safety net in the case of future changes that may break the program, so having version control allows contributors to go back and change back the program to a point where it was functional. 
 
+##### This instruction set shows you how to:
+- Add Version Control to a project through IntelliJ
+- Share a Java Project to your Github
 
 <!-- ## Table of contents
 {: .no_toc .text-delta }
@@ -36,16 +38,9 @@ Adding version control helps keep track of changes by allowing contributors to p
 {:toc} -->
 
 ---
-## Adding a Java Project to your Github 
-This instruction set shows you how to:
-- Adding Version Control to a project through IntelliJ
-- Sharing a project on your Github
-- Committing and Pushing a Project 
-
+## Adding Version Control to a project through IntelliJ
 Create a GitHub account [here](https://github.com/join) if you do not already have one.   
 Create a JetBrains account [here](https://account.jetbrains.com/login) if you do not already have one.   
-
-
 
 
 1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application.  
@@ -54,7 +49,7 @@ Create a JetBrains account [here](https://account.jetbrains.com/login) if you do
 
 You will be brought to a "Welcome to IntelliJ IDEA" window.
 
-2. Click on the  Project File that you to add version control to. 
+2. Click on the  Project File that you want to add version control to. 
 
 ![chooseProject](../assets/images/VSC-images/VSC_2.png)
 
@@ -96,13 +91,15 @@ After logging in, and seeing the "You have been successfully authorized in GitHu
 
 >![addAccount](../assets/images/VSC-images/VSC_16.png)
 
+##### You have succesfully added version ontrol to a project throught intelliJ.  
+##### The next Steps will show you how to Share an InteilliJ project to your Github.
 
 Navtigate back to IntelliJ, and you will see the the "Share Project On GitHub" window in IntelliJ.
 You should see your GitHub account URL  in the text box labeled "Share by: "
 
+## Share a Java Project to your Github
 
-5. Press Share in the  "Share Project On GitHub" window
-
+5. Press the "Share" button in the  "Share Project On GitHub" window
 
 >![addAccount](../assets/images/VSC-images/VSC_9.png)
 
@@ -110,8 +107,9 @@ You should see a "Add Files For Initial Commit" window where you can see all you
 
   
 6. Check the projects files you want to add to your GitHub and type a meaningful commit message under the "Commit Message" text box.
-  
   Press the "Add" button. 
+  
+  ###### Learn more about ["Commit Messages"]
   
 >![addAccount](../assets/images/VSC-images/VSC_10.png)
 
@@ -128,6 +126,9 @@ You should see a "Commit to Master" window.
    1) Check the file you want to push to your GitHub repository.   
    2) Type a meaningful commit message.  
    3) Press the "Commit and Push..." button.  
+
+  ###### Learn more about the [Commit] command
+  ###### Learn more about the [Push] command
 
 >![CommitPush](../assets/images/VSC-images/VSC_12.png)
 
