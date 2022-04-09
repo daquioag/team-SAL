@@ -1,181 +1,44 @@
 ---
 layout: default
-title: Markdown kitchen sink
-nav_order: 99
+title: Glossary of Definitions
+nav_order: 7
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Glossary
 
-[Link to another page](another-page).
+Here, you can find of some terms commonly used in the world of programming. 
 
-There should be whitespace between paragraphs.
+##### [IDE]
+IDE stands for "Integrated Development Environment".  An IDE is a software application that allows comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools and a debugge
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+##### [Commit Message]
+A Commit Message explains to other team members that a certain change has been made for a particular project. 
+For example, if we implemented a "Multiply" Function to a project called Caluclator.Java, a meaningful commit message would be "Add Multiuply function to Calculator.Java". 
 
-# [](#header-1)Header 1
+##### [Commit]
+The git commit command saves a snapshot of code changes in a project. 
+Committing a block of code saves a revision of that code. 
+Committing also allows team members the ability to revert to any version of that code. 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+##### [Push]
+The git push command is used to upload local repository content to a remote repository. 
+Pushing is allows contributors to transfer committed code from your local repository to a remote Repository.
 
-## [](#header-2)Header 2
+##### [GitHub]
+GitHub is an online software development platform used for storing, tracking, and collaborating on software projects. It enables developers to upload their own code files and to collaborate with fellow developers on open-source projects.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+##### [Git]
+Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.
 
-### [](#header-3)Header 3
+##### [Java]
+One of the most widely used programming languages, Java is used as the server-side language for most back-end development projects, including those involving big data and Android development. Java is also commonly used for desktop computing, other mobile computing, games, and numerical computing
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+##### [Contributors]
+Team members with the ability to edit a github Repository. 
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+##### [Clone]
+The git clone command is used to copy an existing Git repository into a new local directory.
+cloning a repository will create a new local directory for that repository, copy all the contents of the specified repository, create the remote tracked branches, and checkout an initial branch locally.
 
-#### [](#header-4)Header 4 `with code not transformed`
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Nesting an ol in ul in an ol
-
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-  1. level 4 item (ol)
-  1. level 4 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-
-### And a task list
-
-- [ ] Hello, this is a TODO item
-- [ ] Hello, this is another TODO item
-- [x] Goodbye, this item is done
-
-### Small image
-
-![](../../assets/images/small-image.jpg)
-
-### Large image
-
-![](../../assets/images/large-image.jpg)
-
-"[Wroclaw University Library digitizing rare archival texts](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-#### Multiple description terms and values
-
-Term
-: Brief description of Term
-
-Longer Term
-: Longer description of Term,
-  possibly more than one line
-
-Term
-: First description of Term,
-  possibly more than one line
-
-: Second description of Term,
-  possibly more than one line
-
-Term1
-Term2
-: Single description of Term1 and Term2,
-  possibly more than one line
-
-Term1
-Term2
-: First description of Term1 and Term2,
-  possibly more than one line
-
-: Second description of Term1 and Term2,
-  possibly more than one line
-
-### More code
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+##### [Repository]
+A directory or storage space where your projects can live.
