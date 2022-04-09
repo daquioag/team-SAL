@@ -38,7 +38,7 @@ Adding version control helps keep track of changes by allowing contributors to p
 ---
 ## Adding a Java Project to your Github 
 This instruction set shows you how to:
-- Adding Version Control to IntelliJ
+- Adding Version Control to a project through IntelliJ
 - Sharing a project on your Github
 - Committing and Pushing a Project 
 
@@ -146,6 +146,15 @@ You should be able to see 4 things
 4) the file itself   
 
 >![checkProject](../assets/images/VSC-images/VSC_14.png)
+
+
+### Conclusion
+---
+In this article, we have explined the process of how to add version control to a local project through IntelliJ. During this explanation, we went over how to create a project reposiutory, connect your IntelliJ with GitHub, and push your local project repository to an online repository on gitHub.
+
+You have successfully added version control to a project! 
+Adding version control to a local project allows you to keep track of changes, bug mises or  new additions made by you or by team mbmers.
+THes changes are saved to the online repositry on Github, where you will be able to review any and all changes that were committed and pushed to the onlline repositroy. 
 
 
 
