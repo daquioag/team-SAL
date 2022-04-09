@@ -1,14 +1,30 @@
 ---
 layout: default
-title: Search
+title: Troubleshooting
 nav_order: 7
 ---
 
-# Search
+# Troubleshooting
 
 {: .no_toc }
 
-## Table of contents
+## Responsive type scale
+
+Just the Docs uses a responsive type scale that shifts depending on the viewport size.
+
+| Symptoms              | Probably Cause                   | Action                        |
+|:----------------------|:---------------------------------|:------------------------------|
+| `h1`, `.text-alpha`   | 32px                             | 36px                          |
+| `h2`, `.text-beta`    | 18px                             | 24px                          |
+| `h3`, `.text-gamma`   | 16px                             | 18px                          |
+| `h4`, `.text-delta`   | 14px                             | 16px                          |
+| `h5`, `.text-epsilon` | 16px                             | 18px                          |
+| `h6`, `.text-zeta`    | 18px                             | 24px                          |
+| `body`                | 14px                             | 16px                          |
+
+---
+
+<!-- ## Table of contents
 
 {: .no_toc .text-delta }
 
@@ -123,7 +139,8 @@ If you use the theme as a gem, you must initialize the search by running this `r
 
 ```bash
 $ bundle exec just-the-docs rake search:init
-```
+``` -->
 
-This command creates the `assets/js/zzzz-search-data.json` file that Jekyll uses to create your search index.
+<!-- This command creates the `assets/js/zzzz-search-data.json` file that Jekyll uses to create your search index.
 Alternatively, you can create the file manually with [this content]({{ site.github.repository_url }}/blob/main/assets/js/zzzz-search-data.json).
+ -->
