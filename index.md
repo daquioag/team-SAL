@@ -39,7 +39,7 @@ Readers are expected to have the following software properly set up in order to 
 
 --- 
 
-### System Requirements:
+### System Requirements
 - Mac:
   - macOS 10.14 or higher
   - 2 GB free RAM minimum, 8 GB of total system RAM recommended
