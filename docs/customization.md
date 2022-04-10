@@ -57,8 +57,7 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    
    It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...* to GitHub by authorizing your GitHub account or by generating a token.     
    
-<code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHib...* option. To add your GitHub accout using a token, click [here](https://github.com/daquioag/team-SAL/edit/gh-pages/docs/customization.md#learn-more-about-commit-messages).
-   
+<code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHib...* option.
 5. Click on **Log in via GitHub...**
    
    >![addAccount](../assets/images/VSC-images/VSC_7.png)
@@ -80,7 +79,7 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    >![addAccount](../assets/images/VSC-images/VSC_8.png)
    
    After logging in, and seeing the *You have been successfully authorized in GitHub* message, you can close the web browser. 
-<code>symbol Warning </code>: If you cannot successfully add your GitHib account by logging in, learn how to add your GitHib account with a [token]. 
+<code>symbol Warning </code>: If you cannot successfully add your GitHib account by logging in, learn how to add your GitHib account with a [token](#generating-a-new-personal-access-token).. 
 
    >![addAccount](../assets/images/VSC-images/VSC_16.png)
    >
@@ -153,9 +152,10 @@ THes changes are saved to the online repositry on Github, where you will be able
 
 
 ## Generating a New Personal Access Token
-From the *Share Project On GitHub* window.
 
 1. Click on the **Log in with token..** button.   
+   ![nameAndExpiration](../assets/images/VSC-images/VSC_31.png)   
+
 2. A pop-up window called *Add GitHub Account* will appear, click on the **Generate…** button.   
    ![NewPersonalAccessToken](../assets/images/VSC-images/VSC_30.png)
 
@@ -167,30 +167,30 @@ A window to create a New personal access token will appear.
 Select an expiration period from the drop-down menu. This expiration date indicates how long IntelliJ will have access to your GitHub until you need to generate a new token.
    ![nameAndExpiration](../assets/images/VSC-images/VSC_25.png)
 
-7. Accept all default values for the options checkboxes, then press the “Generate token” button.
+5. Accept all default values for the options checkboxes, then press the “Generate token” button.
 
    ![nameAndExpiration](../assets/images/VSC-images/VSC_26.png)
 
 
-Copy the generated token from GitHub.
-
-  <code>⚠️ WARNING: </code> Make sure to copy your personal access token now. You won’t be able to see it again! 
-
-  ![nameAndExpiration](../assets/images/VSC-images/VSC_28.png)
-
-Navigate back to IntelliJ and paste the generated token into the “Token” field in the *Add GitHub Account* window.
+6. Copy the generated token from GitHub.   
+7. 
+  ![nameAndExpiration](../assets/images/VSC-images/VSC_28.png)   
+  
+  <code>⚠️ WARNING: </code> Make sure you do not close the GitHub page with the newly generated personal access token without copying it. You won't be able to access that token again, and you will have to generate a new personal access token if you close the window without saving it somewhere.
+  
+7. Navigate back to IntelliJ and paste the generated token into the “Token” field in the *Add GitHub Account* window.   
   
   ![nameAndExpiration](../assets/images/VSC-images/VSC_27.png)
 
-Click the **Add Account** button.
+8. Click the **Add Account** button.   
   ![nameAndExpiration](../assets/images/VSC-images/VSC_29.png)
   
 To confirm that you successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*. 
 
-Resume the rest of this instruction set here[#Share-a-Java-Project-to-your-Github]
 
 #### You’ve successfully connected IntelliJ to your GitHub account with a token!
 
+Resume the rest of this instruction set here[#share-a-java-project-to-your-github]!
 
 
 
