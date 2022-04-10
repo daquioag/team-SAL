@@ -21,8 +21,7 @@ This instruction set works with the project created in [Creating a New Project](
 Adding version control helps keep track of changes by allowing contributors to push code with commit messages describing the changes. Version control also allows for reviewing previous changes and old code blocks. The ability to review old code acts as a safety net in the case of future changes that may break the program, so having version control allows contributors to go back and change back the program to a point where it was functional. 
 
 ### Notes:   
-<code>⚠️ ATTENTION This instruction set was created using the *Ultimate* Version of the IntelliJ IDEA on a Windows 10 machine.    
-</code>
+<code>⚠️ ATTENTION: </code> This instruction set was created using the *Ultimate* Version of the IntelliJ IDEA on a Windows 10 machine.    
 
 Before starting this instruction set:   
 You will need a GitHub account in order to connect your IntelliJ project to version control.
@@ -39,27 +38,29 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application.  
  On Mac, press <code>cmd</code> + <code>space</code> and type in IntelliJ, press enter to open the application.
    
-   You will be brought to a "Welcome to IntelliJ IDEA" window.
+   You will be brought to a *Welcome to IntelliJ IDEA* window.
    
-2. Click on the  Project File that you want to add version control to. 
+2. Click on the  Project File that you want to add version control to. For this instruction set, we are going to use the *VersionControlDemo* project seen in the image below. 
    
    ![chooseProject](../assets/images/VSC-images/VSC_2.png)
    
-3. Navigate to the VSC tab in the top menu bar click on Share Project on GitHub. 
+3. Navigate to the **VSC** tab in the top menu bar.
    
    ![topBarMenu](../assets/images/VSC-images/VSC_4.png)
    
-   Click on Share Project on GitHub.  
+   Click on **Share Project on GitHub**. 
    
    ![ClickOnVSC](../assets/images/VSC-images/VSC_5.png)
 
-   A "Share Project On GitHub" window will pop-up.
+   A *Share Project On GitHub* window will pop-up.
 
-4. Click on "Add Account" in the "Share Project On GitHub" window.
+4. Click on **Add Account** in the *Share Project On GitHub* window.
    
-   It will bring you to a drop-down menu, but let us connect by logging into your GitHub account.   
+   It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...* to GitHub by authorizing your GitHub account or by generating a token.     
    
-5. Click on "Log in via GitHub..."
+<code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHib...* option. To add your GitHub accout using a token, click [here](https://github.com/daquioag/team-SAL/edit/gh-pages/docs/customization.md#learn-more-about-commit-messages)
+   
+5. Click on **Log in via GitHub...**
    
    >![addAccount](../assets/images/VSC-images/VSC_7.png)
    
@@ -69,25 +70,22 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    
 6. Log in using your Github Account
    
-   Click "Authorize in GitHub" and it will ask you to log into GitHub.
-   Add in your GitHub log-in information and click on "Sign in".  
+   Click **Authorize in GitHub** and it will ask you to log into GitHub.
+   Add in your GitHub log-in information and click on **Sign in**.  
    
    >![addAccount](../assets/images/VSC-images/VSC_8.png)
    
    After logging in, and seeing the "You have been successfully authorized in GitHub" message, you can close the web browser. 
-   
+
    >![addAccount](../assets/images/VSC-images/VSC_16.png)
-   
-##### You have succesfully added version ontrol to a project throught intelliJ.  
-##### The next Steps will show you how to Share an InteilliJ project to your Github.
 
-Navtigate back to IntelliJ, and you will see the the "Share Project On GitHub" window in IntelliJ.
-You should see your GitHub account URL  in the text box labeled "Share by: "
+#### You have succesfully added version ontrol to a project throught intelliJ.  
+#### The next steps will show you how to share an InteilliJ project to your Github.
 
----
 
 ## Share a Java Project to your Github
-
+Navtigate back to IntelliJ, and you will see the the *Share Project On GitHub* window in IntelliJ.
+To confirm that successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by: *.
 1. Press the "Share" button in the  "Share Project On GitHub" window
    
    >![addAccount](../assets/images/VSC-images/VSC_9.png)
@@ -128,11 +126,11 @@ You should see your GitHub account URL  in the text box labeled "Share by: "
 >![goToGitHub](../assets/images/VSC-images/VSC_13.png)
 
 
-You should be able to see 4 things 
-1) the name of the project  
-2) the file you committed and pushed  
-3) your commit message  
-4) the file itself   
+You should be able to see 4 things:   
+1) the name of the project    
+2) the file you committed and pushed    
+3) your commit message   
+4) the file itself     
 
 >![checkProject](../assets/images/VSC-images/VSC_14.png)
 
@@ -141,8 +139,8 @@ You should be able to see 4 things
 ### Conclusion
 
 In this article, we have explined the process of how to add version control to a local project through IntelliJ. During this explanation, we went over how to create a project reposiutory, connect your IntelliJ with GitHub, and push your local project repository to an online repository on gitHub.
-
-You have successfully added version control to a project! 
+    
+You have successfully added version control to a project!    
 Adding version control to a local project allows you to keep track of changes, bug mises or  new additions made by you or by team mbmers.
 THes changes are saved to the online repositry on Github, where you will be able to review any and all changes that were committed and pushed to the onlline repositroy. 
 
