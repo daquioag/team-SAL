@@ -54,7 +54,7 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    A pop-up window called *Share Project On GitHub*  will appear.
 
 
-   <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be 'private'. **See top left corner of the *Share Project On GitHub* window.**       Not checking this check box will make your project 'public'. Making a GitHub project repository 'public' allows for anyone have access to it. Anyone would be copy and use the files in the project repository.    
+   <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be 'private'. **See top left corner of the *Share Project On GitHub* window.**       Not checking this check box will make your project 'public'. Making a GitHub project repository 'public' allows for anyone have access to it. Anyone would be able to copy and use the files in the project repository.    
    >![addAccount](../assets/images/VSC-images/VSC_24.png)   
 
 
@@ -72,6 +72,7 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 
    Click **Authorize in GitHub** and it will ask you to log into GitHub.
    Add in your GitHub log-in information and click on **Sign in**.    
+   
 6.  Log in using your Github Account.
 
    >![addAccount](../assets/images/VSC-images/VSC_8.png)
