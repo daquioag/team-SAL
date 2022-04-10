@@ -55,4 +55,10 @@ Readers are expected to have the following software properly set up in order to 
 
 ### Typographic Conventions
 
+
+
 ### Notes and Warnings
+
+<code>⚠️ WARNING</code>: Important messages for steps that may impact your system's security, or cause a critical failure in the instructions. Pay close attention to these messages!
+
+<code>⚠️ ATTENTION</code>: Notes with important information for specific steps. Includes information that is beneficial to know.
