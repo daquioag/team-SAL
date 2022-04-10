@@ -77,10 +77,10 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    >![addAccount](../assets/images/VSC-images/VSC_8.png)
    
    After logging in, and seeing the *You have been successfully authorized in GitHub* message, you can close the web browser. 
-<code>symbol Warning </code>: If you cannot successfully add your GitHib account by logging in, learn how to add your GitHib account with a [token](#generating-a-new-personal-access-token).. 
+<code>symbol Warning </code>: If you cannot successfully add your GitHib account by logging in, learn how to add your GitHib account with a [token](https://daquioag.github.io/team-SAL/docs/customization/#generating-a-new-personal-access-token). 
 
    >![addAccount](../assets/images/VSC-images/VSC_16.png)
-   >
+   
 #### You have connected IntelliJ to your GitHub account!
 #### The next steps will show you how to share an InteilliJ project to your Github.
 
@@ -170,9 +170,7 @@ Select an expiration period from the drop-down menu. This expiration date indica
 
 
 6. Copy the generated token from GitHub.   
-7. 
   ![nameAndExpiration](../assets/images/VSC-images/VSC_28.png)   
-  
   <code>⚠️ WARNING: </code> Make sure you do not close the GitHub page with the newly generated personal access token without copying it. You won't be able to access that token again, and you will have to generate a new personal access token if you close the window without saving it somewhere.
   
 7. Navigate back to IntelliJ and paste the generated token into the “Token” field in the *Add GitHub Account* window.   
@@ -187,7 +185,7 @@ To confirm that you successfully added your GitHub account to your IntelliJ proj
 
 #### You’ve successfully connected IntelliJ to your GitHub account with a token!
 
-Resume the rest of this instruction set here[#share-a-java-project-to-your-github]!
+Resume the rest of this instruction set [here](https://daquioag.github.io/team-SAL/docs/customization/#share-a-java-project-to-your-github)!
 
 
 
