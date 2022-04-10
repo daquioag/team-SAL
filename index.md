@@ -8,7 +8,7 @@ permalink: /
 
 
 
-### Introduction
+# Introduction
 
 Hi everyone, we are here to help walk you through using IntelliJ, which is a powerful tool designed to help developers improve their programming workflow. IntelliJ helps programmers maximize productivity when working with the Java programming language. 
 
