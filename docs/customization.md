@@ -53,13 +53,11 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 
    A *Share Project On GitHub* window will pop-up.
 
-4. Click on **Add Account** in the *Share Project On GitHub* window.
-   
+4. Click on **Add Account** in the *Share Project On GitHub* window.   
    It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...* to GitHub by authorizing your GitHub account or by generating a token.     
    
 <code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHib...* option.
-5. Click on **Log in via GitHub...**
-   
+5. Click on **Log in via GitHub...**    
    >![addAccount](../assets/images/VSC-images/VSC_7.png)
    
    <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be private. **See top left corner of the *Share Project On GitHub* window.**    
@@ -70,9 +68,9 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    Aftering clicking on **Log in via GitHub...**, you will be redirected to the following JetBrains web browser.
    
    >![addAccount](../assets/images/VSC-images/VSC_15.png)
-   
 6. Log in using your Github Account.
-   
+
+        
    Click **Authorize in GitHub** and it will ask you to log into GitHub.
    Add in your GitHub log-in information and click on **Sign in**.  
    
@@ -112,13 +110,12 @@ To confirm that successfully added your GitHub account to your IntelliJ project,
    You should see a *Commit to Master* window.
    
 4. Follow the folowing steps to commit and push the desired files to GitHub.
-   
-   1) Check the files you want to push to your GitHub repository.   
-   2) Type a meaningful commit message.  
-   3) Press the **Commit and Push...** button.  
-   
-  ###### Learn more about the [Commit](https://daquioag.github.io/team-SAL/docs/index-test/) command
-  ###### Learn more about the [Push](https://daquioag.github.io/team-SAL/docs/index-test/) command
+   I) Check the files you want to push to your GitHub repository.    
+   II) Type a meaningful commit message.   
+   III) Press the **Commit and Push...** button.   
+
+###### Learn more about the [Commit](https://daquioag.github.io/team-SAL/docs/index-test/) command    
+###### Learn more about the [Push](https://daquioag.github.io/team-SAL/docs/index-test/) command   
    
 >![CommitPush](../assets/images/VSC-images/VSC_12.png)   
 #### You have succesfully added version control to a project through intelliJ!
@@ -133,10 +130,10 @@ To confirm that successfully added your GitHub account to your IntelliJ project,
 
 
 You should be able to see 4 things:   
-1) the name of the project    
-2) the file you committed and pushed    
-3) your commit message   
-4) the file itself     
+   I) The name of the project    
+   II) The file you committed and pushed    
+   III) Your commit message   
+   IV) The file itself     
 
 >![checkProject](../assets/images/VSC-images/VSC_14.png)
 
