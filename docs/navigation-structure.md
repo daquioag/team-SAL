@@ -45,7 +45,7 @@ nav_order: 4
    
    ![Figure 5](../assets/images/code_with_me/figure5.png)
    
-   ```⚠️ WARNING: By giving guests full access, they can edit files, run code, and access the command line on your computer. Do not give this permission to guests you do not fully trust. You can give guests Read-only permissions if you want them to look at code that resides on your device, or you can customize their level of   access by expanding the Permission Details menu.```
+   <code>⚠️ WARNING</code>: By giving guests full access, they can edit files, run code, and access the command line on your computer. Do not give this permission to guests you do not fully trust. You can give guests Read-only permissions if you want them to look at code that resides on your device, or you can customize their level of   access by expanding the Permission Details menu.
    
    After you click Enable Access, IntelliJ automatically copies an invite link that you can send to other developers so they can join your session. If you lose this link, you can obtain it again by clicking the Code With Me icon on the top-left toolbar and selecting **Copy Invitation Link…** from the dropdown menu.
    
@@ -55,7 +55,7 @@ nav_order: 4
    
    Once a participant opens the invitation link on their end, a new window called **Code With Me: Accept User** will open on the host's computer. The host is then prompted to let the guest join the project.
    
-   ```⚠️ATTENTION: As a host, you can ensure that the right person is joining your project by checking their user name and cross-checking their security code.```
+   <code>⚠️ ATTENTION</code>: As a host, you can ensure that the right person is joining your project by checking their user name and cross-checking their security code.
    
 5. To give a guest access to the project, click the Accept button in this window.
    
