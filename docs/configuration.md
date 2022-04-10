@@ -29,9 +29,11 @@ The first method of starting a new programming project is creating one locally. 
    
    ![new_project_2](../assets/images/new_project_img/new_project_2.png)
    
+   <code>⚠️ ATTENTION</code>: If you do not see a Project SDK to choose from, you may not have a JDK installed.
+   
 4. IntelliJ will ask if you want to create a project from an existing template, we will skip this and press “Next”.
    
-5. In this stage, IntelliJ will ask for a project name and location. Input a name into the “Project name” text field. You can accept the default directory location for your project, or select a specific directory by pressing the “...” adjacent to the “Project location” field. Accept all default values under “More settings” and press “Finish”
+5. In this stage, IntelliJ will ask for a project name and location. Input a name into the “Project name” text field. You can accept the default directory location for your project, or select a specific directory by pressing the “...” adjacent to the “Project location” field. Accept all default values under “More settings” and press “Finish”.
    
    ![new_project_4](../assets/images/new_project_img/new_project_4.png)
    
@@ -70,8 +72,12 @@ To start this process, there are a few things we need to prepare, namely connect
 4. Navigate to a GitHub project you would like to clone.
    
 5. Click the green “Code” button and copy the HTTPS URL to your clipboard. This is a unique link that is connected to your specific GitHub repository.
+
+   <code>⚠️ ATTENTION</code>: Be sure to copy the URL under the HTTPS tab. SSH and GitHub CLI links will not work for this guide!
     
    ![new_vcs_3](../assets/images/new_project_img/new_vcs_3.png)
+   
+   <code>⚠️ WARNING</code>: Be cautious when cloning a public project from GitHub! Make sure the project you are cloning is one you can trust.
    
 6. Paste this URL into the “URL” field in the IntelliJ window.
    
