@@ -52,10 +52,9 @@ Readers are expected to have the following software properly set up in order to 
   - 1024x768 minimum screen resolution
 
 --- 
-
+<!-- 
 ### Typographic Conventions
-
-
+ -->
 
 ### Notes and Warnings
 
