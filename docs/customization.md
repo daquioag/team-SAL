@@ -36,7 +36,7 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application.  
  On Mac, press <code>cmd</code> + <code>space</code> and type in IntelliJ, press enter to open the application.
    
-   You will be brought to a *Welcome to IntelliJ IDEA* window.
+   A window called *Welcome to IntelliJ IDEA*  will appear.
    
 2. Click on the  Project File that you want to add version control to. For this instruction set, we are going to use the *VersionControlDemo* project seen in the image below.   
       You will be brought to the **Main IntelliJ Window**.    
@@ -51,31 +51,29 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    
    ![ClickOnVSC](../assets/images/VSC-images/VSC_5.png)
 
-   A *Share Project On GitHub* window will pop-up.
+   A pop-up window called *Share Project On GitHub*  will appear.
+
+
+   <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be 'private'. **See top left corner of the *Share Project On GitHub* window.**       Not checking this check box will make your project 'public'. Making a GitHub project repository 'public' allows for anyone have access to it. Anyone would be copy and use the files in the project repository.    
+   >![addAccount](../assets/images/VSC-images/VSC_24.png)   
+
 
 4. Click on **Add Account** in the *Share Project On GitHub* window.   
-   It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...*.
+
+  A drop-down menu will appear, showing the options of *Log in via GitHub...* or *Log in with token...*.   
+   <code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHub...* option.
+
+
 5.  Click on **Log in via GitHub...**    
-<!--    It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...* to GitHub by authorizing your GitHub account or by generating a token.      -->
-   
-<code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHib...* option.
-<!-- 5. Click on **Log in via GitHub...**     -->
    >![addAccount](../assets/images/VSC-images/VSC_7.png)
-   
-   <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be private. **See top left corner of the *Share Project On GitHub* window.**    
 
-   <code>⚠️ WARNING: </code> In the  *Share Project On GitHub* window, you should see the option to make your project 'private'. Not checking this check box will make your project 'public'. Making a GitHub project repository 'public' allows for anyone have access to it. Anyone would be copy and use the files in the project repository. 
-  
-   
    Aftering clicking on **Log in via GitHub...**, you will be redirected to the following JetBrains web browser.
-   
-   >![addAccount](../assets/images/VSC-images/VSC_15.png)
-6. Log in using your Github Account.
+      >![addAccount](../assets/images/VSC-images/VSC_15.png)   
 
-        
    Click **Authorize in GitHub** and it will ask you to log into GitHub.
-   Add in your GitHub log-in information and click on **Sign in**.  
-   
+   Add in your GitHub log-in information and click on **Sign in**.    
+6.  Log in using your Github Account.
+
    >![addAccount](../assets/images/VSC-images/VSC_8.png)
    
    After logging in, and seeing the *You have been successfully authorized in GitHub* message, you can close the web browser. 
