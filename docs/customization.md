@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Adding Version Control to Project
-nav_order:  3
+nav_order: 3
 ---
 
 <!-- # Customization -->
@@ -20,6 +20,9 @@ title: Version Control: Sharing a project on Github
 nav_order: 6 -->
 
 # Version Control and Projects  
+
+## Overview
+
 ##### This instruction set shows you how to:
 - Add Version Control to a project through IntelliJ
 - Share a Java Project to your Github
