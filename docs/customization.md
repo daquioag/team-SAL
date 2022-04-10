@@ -40,8 +40,9 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    
    You will be brought to a *Welcome to IntelliJ IDEA* window.
    
-2. Click on the  Project File that you want to add version control to. For this instruction set, we are going to use the *VersionControlDemo* project seen in the image below. 
-   
+2. Click on the  Project File that you want to add version control to. For this instruction set, we are going to use the *VersionControlDemo* project seen in the image below.   
+      You will be brought to the **Main IntelliJ Window**.    
+
    ![chooseProject](../assets/images/VSC-images/VSC_2.png)
    
 3. Navigate to the **VSC** tab in the top menu bar.
@@ -58,24 +59,30 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    
    It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...* to GitHub by authorizing your GitHub account or by generating a token.     
    
-<code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHib...* option. To add your GitHub accout using a token, click [here](https://github.com/daquioag/team-SAL/edit/gh-pages/docs/customization.md#learn-more-about-commit-messages)
+<code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHib...* option. To add your GitHub accout using a token, click [here](https://github.com/daquioag/team-SAL/edit/gh-pages/docs/customization.md#learn-more-about-commit-messages).
    
 5. Click on **Log in via GitHub...**
    
    >![addAccount](../assets/images/VSC-images/VSC_7.png)
    
-   You will be redirected to the following JetBrains web browser.
+   <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be private. **See top left corner of the *Share Project On GitHub* window.**    
+
+   <code>⚠️ WARNING: </code> In the  *Share Project On GitHub* window, you should see the option to make your project 'private'. Not checking this check box will make your project 'public'. Making a GitHub project repository 'public' allows for anyone have access to it. Anyone would be copy and use the files in the project repository. 
+  
+   
+   Aftering clicking on **Log in via GitHub...**, you will be redirected to the following JetBrains web browser.
    
    >![addAccount](../assets/images/VSC-images/VSC_15.png)
    
-6. Log in using your Github Account
+6. Log in using your Github Account.
    
    Click **Authorize in GitHub** and it will ask you to log into GitHub.
    Add in your GitHub log-in information and click on **Sign in**.  
    
    >![addAccount](../assets/images/VSC-images/VSC_8.png)
    
-   After logging in, and seeing the "You have been successfully authorized in GitHub" message, you can close the web browser. 
+   After logging in, and seeing the *You have been successfully authorized in GitHub* message, you can close the web browser. 
+<code>symbol Warning </code>: If you cannot successfully add your GitHib account by logging in, learn how to add your GitHib account with a [token]. 
 
    >![addAccount](../assets/images/VSC-images/VSC_16.png)
 
@@ -84,36 +91,37 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 
 
 ## Share a Java Project to your Github
-Navtigate back to IntelliJ, and you will see the the *Share Project On GitHub* window in IntelliJ.
-To confirm that successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by: *.
-1. Press the "Share" button in the  "Share Project On GitHub" window
+Navtigate back to IntelliJ, and you will see the the *Share Project On GitHub* window in IntelliJ.   
+To confirm that successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*.    
+
+1. Press the **Share** button in the  *Share Project On GitHub* window.
    
    >![addAccount](../assets/images/VSC-images/VSC_9.png)
    
-   You should see a "Add Files For Initial Commit" window where you can see all your project files.
+   You should see a *Add Files For Initial Commit* window where you can see all your project files.
    
-2. Check the projects files you want to add to your GitHub and type a meaningful commit message under the "Commit Message" text box.
-  Press the "Add" button. 
+2. Check the projects files you want to add to your GitHub and type a meaningful commit message under the *Commit Message* text box.
+  Press the **Add** button. 
   
-   ###### Learn more about ["Commit Messages"]
+   ###### Learn more about ["Commit Messages"](https://daquioag.github.io/team-SAL/docs/index-test/)
    >![addAccount](../assets/images/VSC-images/VSC_10.png)
    
-   You should be brought back to the main window.
-   
-3. Press the commit tab on the left-hand side edge of the screen.
+   You should be brought back to the **Main IntelliJ Window**.    
+
+3. Press the **commit** tab on the left-hand side edge of the screen.
    
    >![commitMenu](../assets/images/VSC-images/VSC_11.png)
    
-   You should see a "Commit to Master" window.
+   You should see a *Commit to Master* window.
    
 4. Follow the folowing steps to commit and push the desired files to GitHub.
    
-   1) Check the file you want to push to your GitHub repository.   
+   1) Check the files you want to push to your GitHub repository.   
    2) Type a meaningful commit message.  
-   3) Press the "Commit and Push..." button.  
+   3) Press the **Commit and Push...** button.  
    
-  ###### Learn more about the [Commit] command
-  ###### Learn more about the [Push] command
+  ###### Learn more about the [Commit](https://daquioag.github.io/team-SAL/docs/index-test/) command
+  ###### Learn more about the [Push](https://daquioag.github.io/team-SAL/docs/index-test/) command
    
 >![CommitPush](../assets/images/VSC-images/VSC_12.png)
 
