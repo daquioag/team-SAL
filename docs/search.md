@@ -22,7 +22,7 @@ nav_order: 7
 | I don’t see an option to use Code with Me in IntelliJ.| Your version of IntelliJ may not be up to date. | View this guide from Jetbrains to learn how to [update IntelliJ](https://www.jetbrains.com/help/idea/update.html). |
 | My Code with Me guests can’t modify the project we are working on.| The guests likely do not have the proper permissions to access the project.| Ensure that the permissions set for the guests have “Full Access”. Otherwise, guests may not be able to access modify the project.|
 
----
+<!-- --- -->
 
 <!-- ## Table of contents
 
