@@ -6,8 +6,6 @@ nav_order: 3
 
 # Version Control and Projects  
 
----
-
 ## Overview
    
 ##### This instruction set shows you how to:
@@ -85,8 +83,8 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 <code>symbol Warning </code>: If you cannot successfully add your GitHib account by logging in, learn how to add your GitHib account with a [token]. 
 
    >![addAccount](../assets/images/VSC-images/VSC_16.png)
-
-#### You have succesfully added version ontrol to a project throught intelliJ.  
+   >
+#### You have connected IntelliJ to your GitHub account!
 #### The next steps will show you how to share an InteilliJ project to your Github.
 
 
@@ -94,7 +92,7 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 Navtigate back to IntelliJ, and you will see the the *Share Project On GitHub* window in IntelliJ.   
 To confirm that successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*.    
 
-1. Press the **Share** button in the  *Share Project On GitHub* window.
+1. Press the **Share** button in the *Share Project On GitHub* window.
    
    >![addAccount](../assets/images/VSC-images/VSC_9.png)
    
@@ -123,7 +121,8 @@ To confirm that successfully added your GitHub account to your IntelliJ project,
   ###### Learn more about the [Commit](https://daquioag.github.io/team-SAL/docs/index-test/) command
   ###### Learn more about the [Push](https://daquioag.github.io/team-SAL/docs/index-test/) command
    
->![CommitPush](../assets/images/VSC-images/VSC_12.png)
+>![CommitPush](../assets/images/VSC-images/VSC_12.png)   
+#### You have succesfully added version control to a project through intelliJ!
 
 ---
 
@@ -165,19 +164,33 @@ A window to create a New personal access token will appear.
      ![NewPersonalAccessToken](../assets/images/VSC-images/VSC_21.png)
 
 4. Enter a name for this token in the textbox under *Note*. For this instruction set, we have given this token the name of "VersionControlDemon".
-Select an expiration period from the drop-down menu. This expiration date indicates how long IntelliJ will have access to your GitHub until you need to generate a new token.   
+Select an expiration period from the drop-down menu. This expiration date indicates how long IntelliJ will have access to your GitHub until you need to generate a new token.
    ![nameAndExpiration](../assets/images/VSC-images/VSC_25.png)
 
 7. Accept all default values for the options checkboxes, then press the “Generate token” button.
 
+   ![nameAndExpiration](../assets/images/VSC-images/VSC_26.png)
 
 
+Copy the generated token from GitHub.
+
+  <code>⚠️ WARNING: </code> Make sure to copy your personal access token now. You won’t be able to see it again! 
+
+  ![nameAndExpiration](../assets/images/VSC-images/VSC_28.png)
+
+Navigate back to IntelliJ and paste the generated token into the “Token” field in the *Add GitHub Account* window.
+  
+  ![nameAndExpiration](../assets/images/VSC-images/VSC_27.png)
+
+Click the **Add Account** button.
+  ![nameAndExpiration](../assets/images/VSC-images/VSC_29.png)
+  
+To confirm that you successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*. 
+
+Resume the rest of this instruction set here[#Share-a-Java-Project-to-your-Github]
+
+#### You’ve successfully connected IntelliJ to your GitHub account with a token!
 
 
-You should be redirected to a login screen for GitHub. Enter your credentials to verify your login.
-A window to create a New Personal Access token will appear. Enter a name for this token and select an expiration period from the drop-down menu. This expiration date indicates how long IntelliJ will have access to your GitHub until you need to generate a new token.
-Accept all default values for the options checkboxes, then press the “Generate token” button.
-Copy the generated token from GitHub and paste it into the “Token” field in the IntelliJ window.
-Click the Apply button, then ok. You’ve successfully connected IntelliJ to your GitHub account!
 
 
