@@ -4,21 +4,6 @@ title: Adding Version Control to Project
 nav_order: 3
 ---
 
-<!-- # Customization -->
-<!-- {: .no_toc }
- -->
-<!-- ## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc} -->
-<!-- 
----
-
-layout: default
-title: Version Control: Sharing a project on Github
-nav_order: 6 -->
-
 # Version Control and Projects  
 
 ---
@@ -30,7 +15,6 @@ nav_order: 6 -->
 - Share a Java Project to your Github
 This instruction set works with the project created in [Creating a New Project](https://github.com/daquioag/team-SAL/blob/gh-pages/docs/configuration.md)
  or any other local project from IntelliJ. 
-<!-- {: .no_toc } -->
 
 ##### Why should we use implement version control to our projects?   
 Adding version control helps keep track of changes by allowing contributors to push code with commit messages describing the changes. Version control also allows for reviewing previous changes and old code blocks. The ability to review old code acts as a safety net in the case of future changes that may break the program, so having version control allows contributors to go back and change back the program to a point where it was functional. 
@@ -41,11 +25,6 @@ This instruction set was created using the *Ultimate* Version of the IntelliJ ID
 You will need a Git   
 Create a GitHub account [here](https://github.com/join) if you do not already have one.   
 Create a JetBrains account [here](https://account.jetbrains.com/login) if you do not already have one. 
-<!-- ## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc} -->
 
 ---
 
@@ -55,52 +34,46 @@ Create a JetBrains account [here](https://account.jetbrains.com/login) if you do
 
 1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application.  
  On Mac, press <code>cmd</code> + <code>space</code> and type in IntelliJ, press enter to open the application.
-
-
-You will be brought to a "Welcome to IntelliJ IDEA" window.
-
+   
+   You will be brought to a "Welcome to IntelliJ IDEA" window.
+   
 2. Click on the  Project File that you want to add version control to. 
+   
+   ![chooseProject](../assets/images/VSC-images/VSC_2.png)
+   
+3. Navigate to the VSC tab in the top menu bar click on Share Project on GitHub. 
+   
+   ![topBarMenu](../assets/images/VSC-images/VSC_4.png)
+   
+   Click on Share Project on GitHub.  
+   
+   ![ClickOnVSC](../assets/images/VSC-images/VSC_5.png)
 
-![chooseProject](../assets/images/VSC-images/VSC_2.png)
+   A "Share Project On GitHub" window will pop-up.
 
-
-2. Navigate to the VSC tab in the top menu bar click on Share Project on GitHub. 
-
-
-![topBarMenu](../assets/images/VSC-images/VSC_4.png)
-
-Click on Share Project on GitHub.  
-
-![ClickOnVSC](../assets/images/VSC-images/VSC_5.png)
-
-A "Share Project On GitHub" window will pop-up.
-
-3. Click on "Add Account" in the "Share Project On GitHub" window.
-
-It will bring you to a drop-down menu, but let us connect by logging into your GitHub account.   
-
-4. Click on "Log in via GitHub..."
-
->![addAccount](../assets/images/VSC-images/VSC_7.png)
-
-
-You will be redirected to the following JetBrains web browser.
-
->![addAccount](../assets/images/VSC-images/VSC_15.png)
-
-4. Log in using your Github Account
-
-Click "Authorize in GitHub" and it will ask you to log into GitHub.
-Add in your GitHub log-in information and click on "Sign in".  
-
-
->![addAccount](../assets/images/VSC-images/VSC_8.png)
-
-  
-After logging in, and seeing the "You have been successfully authorized in GitHub" message, you can close the web browser. 
-
->![addAccount](../assets/images/VSC-images/VSC_16.png)
-
+4. Click on "Add Account" in the "Share Project On GitHub" window.
+   
+   It will bring you to a drop-down menu, but let us connect by logging into your GitHub account.   
+   
+5. Click on "Log in via GitHub..."
+   
+   >![addAccount](../assets/images/VSC-images/VSC_7.png)
+   
+   You will be redirected to the following JetBrains web browser.
+   
+   >![addAccount](../assets/images/VSC-images/VSC_15.png)
+   
+6. Log in using your Github Account
+   
+   Click "Authorize in GitHub" and it will ask you to log into GitHub.
+   Add in your GitHub log-in information and click on "Sign in".  
+   
+   >![addAccount](../assets/images/VSC-images/VSC_8.png)
+   
+   After logging in, and seeing the "You have been successfully authorized in GitHub" message, you can close the web browser. 
+   
+   >![addAccount](../assets/images/VSC-images/VSC_16.png)
+   
 ##### You have succesfully added version ontrol to a project throught intelliJ.  
 ##### The next Steps will show you how to Share an InteilliJ project to your Github.
 
@@ -111,37 +84,35 @@ You should see your GitHub account URL  in the text box labeled "Share by: "
 
 ## Share a Java Project to your Github
 
-5. Press the "Share" button in the  "Share Project On GitHub" window
-
->![addAccount](../assets/images/VSC-images/VSC_9.png)
-
-You should see a "Add Files For Initial Commit" window where you can see all your project files.
-
-  
-6. Check the projects files you want to add to your GitHub and type a meaningful commit message under the "Commit Message" text box.
+1. Press the "Share" button in the  "Share Project On GitHub" window
+   
+   >![addAccount](../assets/images/VSC-images/VSC_9.png)
+   
+   You should see a "Add Files For Initial Commit" window where you can see all your project files.
+   
+2. Check the projects files you want to add to your GitHub and type a meaningful commit message under the "Commit Message" text box.
   Press the "Add" button. 
   
-  ###### Learn more about ["Commit Messages"]
-  
->![addAccount](../assets/images/VSC-images/VSC_10.png)
-
-  You should be brought back to the main window.
-  
-7. Press the commit tab on the left-hand side edge of the screen.
-  
->![commitMenu](../assets/images/VSC-images/VSC_11.png)
-
-You should see a "Commit to Master" window.
-
-8. Follow the folowing steps to commit and push the desired files to GitHub.
+   ###### Learn more about ["Commit Messages"]
+   >![addAccount](../assets/images/VSC-images/VSC_10.png)
+   
+   You should be brought back to the main window.
+   
+3. Press the commit tab on the left-hand side edge of the screen.
+   
+   >![commitMenu](../assets/images/VSC-images/VSC_11.png)
+   
+   You should see a "Commit to Master" window.
+   
+4. Follow the folowing steps to commit and push the desired files to GitHub.
    
    1) Check the file you want to push to your GitHub repository.   
    2) Type a meaningful commit message.  
    3) Press the "Commit and Push..." button.  
-
+   
   ###### Learn more about the [Commit] command
   ###### Learn more about the [Push] command
-
+   
 >![CommitPush](../assets/images/VSC-images/VSC_12.png)
 
 ---
