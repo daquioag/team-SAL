@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Adding Version Control to Project
-nav_order: 5
+nav_order:  3
 ---
 
 <!-- # Customization -->
