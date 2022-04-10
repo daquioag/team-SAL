@@ -7,12 +7,18 @@ nav_order: 4
 
 # Code With Me 
 
+---
+
 ## Overview
 
    Code With Me is a feature in IntelliJ and other JetBrains IDEs that enables developers to collaborate on a project. This is achieved by giving one or more developers access to the development environment that a host developer is working on. The participants can view, edit and run code based on the level of access that the host has given them. The Code With Me feature enables developers to pair-program or review each other's code with ease.
+   
+---
 
 ## Setting up the Code With Me environment 
    One person who has the IntelliJ IDE installed and running on their device needs to become the host to enable this feature. The host computer is the device that holds the project files and is used to execute the project.
+   
+---
 
 ## Hosting a Code With Me session
 
@@ -59,6 +65,8 @@ nav_order: 4
    
    ![Figure 8](../assets/images/code_with_me/figure8.png)
    
+---
+   
 ## Joining a Code With Me session as a guest
    
 1. Upon receiving the Code With Me invitation link from a host, input it into a web browser by pasting it into the address bar and pressing Enter.
@@ -74,3 +82,9 @@ nav_order: 4
    ![Figure 10](../assets/images/code_with_me/figure10.png)
    
    Once the host has approved you to join their project, a new window will open on your device with the project, and you are ready to collaborate!
+   
+---
+   
+## Conclusion
+
+Now that you have mastered how to use IntelliJ's Code With Me, collaborating with team members to work on projects together will be streamlined. Use Code With Me to debug, perform pair programming, or simply show off your code! We encourage you to use Code With Me to become better programmers together!
