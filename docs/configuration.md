@@ -7,6 +7,8 @@ nav_order: 2
 # Creating a New Project
 {: .no_toc }
 
+---
+
 ## Overview
 
 Creating a new programming project can be challenging, but an IDE like IntelliJ can help streamline your workflows and help you start a new project quickly. One of the benefits of IntelliJ is the usage of a Guided User Interface (GUI) for many coding editor features. A GUI is a form of user interface that allows the user to perform actions by directly manipulating graphical elements. For example, rather than performing several actions to complete a task, a simple button press in IntelliJ can accomplish everything. 
