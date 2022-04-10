@@ -1,3 +1,10 @@
+---
+layout: default
+title: Adding Version Control to a project
+nav_order: 6
+---
+
+
 # Code With Me 
    Code With Me is a feature in IntelliJ and other JetBrains IDEs that enables developers to collaborate on a project. This is achieved by giving one or more developers access to the development environment that a host developer is working on. The participants can view, edit and run code based on the level of access that the host has given them. The Code With Me feature enables developers to pair-program or review each other's code with ease.
 
