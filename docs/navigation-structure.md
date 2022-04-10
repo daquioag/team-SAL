@@ -15,12 +15,12 @@ nav_order: 4
    
 ---
 
-## Setting up the Code With Me environment 
+## Setting Up the Code With Me Environment 
    One person who has the IntelliJ IDE installed and running on their device needs to become the host to enable this feature. The host computer is the device that holds the project files and is used to execute the project.
    
 ---
 
-## Hosting a Code With Me session
+## Hosting a Code With Me Session
 
    You first need to open a project or create a new one to host a session. Check out this [link](https://daquioag.github.io/team-SAL/docs/configuration/) for instructions.
 
@@ -67,7 +67,7 @@ nav_order: 4
    
 ---
    
-## Joining a Code With Me session as a guest
+## Joining a Code With Me Session as a Guest
    
 1. Upon receiving the Code With Me invitation link from a host, input it into a web browser by pasting it into the address bar and pressing Enter.
    
