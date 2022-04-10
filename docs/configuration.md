@@ -83,7 +83,7 @@ To start this process, there are a few things we need to prepare, namely connect
    
    ![new_vcs_5](../assets/images/new_project_img/new_vcs_5.png)
    
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
+<!-- Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -270,4 +270,4 @@ just_the_docs:
       name: Documentation
     tutorials:
       name: Tutorials
-```
+``` -->
