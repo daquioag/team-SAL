@@ -21,6 +21,8 @@ nav_order: 6 -->
 
 # Version Control and Projects  
 
+---
+
 ## Overview
 
 ##### This instruction set shows you how to:
@@ -28,7 +30,6 @@ nav_order: 6 -->
 - Share a Java Project to your Github
 This instruction set works with the project created in [Creating a New Project](https://github.com/daquioag/team-SAL/blob/gh-pages/docs/configuration.md)
  or any other local project from IntelliJ. 
-
 <!-- {: .no_toc } -->
 
 ##### Why should we use implement version control to our projects?   
@@ -47,6 +48,7 @@ Create a JetBrains account [here](https://account.jetbrains.com/login) if you do
 {:toc} -->
 
 ---
+
 ## Adding Version Control to a project through IntelliJ
   
 
@@ -105,6 +107,8 @@ After logging in, and seeing the "You have been successfully authorized in GitHu
 Navtigate back to IntelliJ, and you will see the the "Share Project On GitHub" window in IntelliJ.
 You should see your GitHub account URL  in the text box labeled "Share by: "
 
+---
+
 ## Share a Java Project to your Github
 
 5. Press the "Share" button in the  "Share Project On GitHub" window
@@ -140,6 +144,7 @@ You should see a "Commit to Master" window.
 
 >![CommitPush](../assets/images/VSC-images/VSC_12.png)
 
+---
 
 ## How to Check if the project files are uploaded to gitHub.
 
@@ -156,9 +161,10 @@ You should be able to see 4 things
 
 >![checkProject](../assets/images/VSC-images/VSC_14.png)
 
+---
 
 ### Conclusion
----
+
 In this article, we have explined the process of how to add version control to a local project through IntelliJ. During this explanation, we went over how to create a project reposiutory, connect your IntelliJ with GitHub, and push your local project repository to an online repository on gitHub.
 
 You have successfully added version control to a project! 
