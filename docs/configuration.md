@@ -15,6 +15,8 @@ We will be using IntelliJ’s GUI to create a new programming project in two way
 
 Hopefully, IntelliJ can help you streamline your programming and help you start a coding project swiftly and smoothly!
 
+---
+
 ## Creating a New Local Project
 
 The first method of starting a new programming project is creating one locally. This means creating a project from scratch without having the involvement of a version control system like GitHub. Creating a local project is an excellent way to start coding immediately on a smaller project. You don’t need to spend time setting up version control and can start coding immediately!
@@ -52,6 +54,8 @@ The first method of starting a new programming project is creating one locally. 
 9. Congratulations! You just created your first Java program along with its first Class!
    
    ![new_project_9](../assets/images/new_project_img/new_project_9.png)
+   
+---
 
 ## Cloning a New Project from GitHub
 
@@ -88,7 +92,8 @@ To start this process, there are a few things we need to prepare, namely connect
 8. Click the “Clone” button, and congratulations! You just successfully cloned your first project!
    
    ![new_vcs_5](../assets/images/new_project_img/new_vcs_5.png)
-
+   
+---
 
 ## Conclusion
 
