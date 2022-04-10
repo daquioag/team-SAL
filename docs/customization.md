@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adding Version Control to a project
+title: Adding Version Control to Project
 nav_order: 5
 ---
 
@@ -18,7 +18,6 @@ nav_order: 5
 layout: default
 title: Version Control: Sharing a project on Github
 nav_order: 6 -->
----
 
 # Version Control and Projects  
 ##### This instruction set shows you how to:
