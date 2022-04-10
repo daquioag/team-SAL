@@ -150,101 +150,34 @@ In this article, we have explined the process of how to add version control to a
     
 You have successfully added version control to a project!    
 Adding version control to a local project allows you to keep track of changes, bug mises or  new additions made by you or by team mbmers.
-THes changes are saved to the online repositry on Github, where you will be able to review any and all changes that were committed and pushed to the onlline repositroy. 
+THes changes are saved to the online repositry on Github, where you will be able to review any and all changes that were committed and pushed to the online repository. 
+
+
+## Generating a New Personal Access Token
+From the *Share Project On GitHub* window.
+
+1. Click on the **Log in with token..** button.   
+2. A pop-up window called *Add GitHub Account* will appear, click on the **Generate…** button.   
+   ![NewPersonalAccessToken](../assets/images/VSC-images/VSC_30.png)
+
+3. You should be redirected to a login screen for GitHub. Enter your credentials to verify your login. 
+A window to create a New personal access token will appear.   
+     ![NewPersonalAccessToken](../assets/images/VSC-images/VSC_21.png)
+
+4. Enter a name for this token in the textbox under *Note*. For this instruction set, we have given this token the name of "VersionControlDemon".
+Select an expiration period from the drop-down menu. This expiration date indicates how long IntelliJ will have access to your GitHub until you need to generate a new token.   
+   ![nameAndExpiration](../assets/images/VSC-images/VSC_25.png)
+
+7. Accept all default values for the options checkboxes, then press the “Generate token” button.
 
 
 
-<!-- 
-## Color schemes
 
-{: .d-inline-block }
 
-New
-{: .label .label-green }
+You should be redirected to a login screen for GitHub. Enter your credentials to verify your login.
+A window to create a New Personal Access token will appear. Enter a name for this token and select an expiration period from the drop-down menu. This expiration date indicates how long IntelliJ will have access to your GitHub until you need to generate a new token.
+Accept all default values for the options checkboxes, then press the “Generate token” button.
+Copy the generated token from GitHub and paste it into the “Token” field in the IntelliJ window.
+Click the Apply button, then ok. You’ve successfully connected IntelliJ to your GitHub account!
 
-Just the Docs supports two color schemes: light (default), and dark.
 
-To enable a color scheme, set the `color_scheme` parameter in your site's `_config.yml` file:
-
-#### Example
-{: .no_toc }
-
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
-
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
-
-## Custom schemes
-
-### Define a custom scheme
-
-You can add custom schemes.
-If you want to add a scheme named `foo` (can be any name) just add a file `_sass/color_schemes/foo.scss` (replace `foo` by your scheme name)
-where you override theme variables to change colors, fonts, spacing, etc.
-
-Available variables are listed in the [\_variables.scss](https://github.com/just-the-docs/just-the-docs/tree/main/_sass/support/_variables.scss) file.
-
-For example, to change the link color from the purple default to blue, include the following inside your scheme file:
-
-#### Example
-{: .no_toc }
-
-```scss
-$link-color: $blue-000;
-```
-
-_Note:_ Editing the variables directly in `_sass/support/variables.scss` is not recommended and can cause other dependencies to fail.
-Please use scheme files.
-
-### Use a custom scheme
-
-To use the custom color scheme, only set the `color_scheme` parameter in your site's `_config.yml` file:
-
-```yaml
-color_scheme: foo
-```
-
-### Switchable custom scheme
-
-If you want to be able to change the scheme dynamically, for example via javascript, just add a file `assets/css/just-the-docs-foo.scss` (replace `foo` by your scheme name)
-with the following content:
-
-{% raw %}
-    ---
-    ---
-    {% include css/just-the-docs.scss.liquid color_scheme="foo" %}
-{% endraw %}
-
-This allows you to switch the scheme via the following javascript.
-
-```js
-jtd.setTheme("foo")
-```
-
-## Override and completely custom styles
-
-For styles that aren't defined as variables, you may want to modify specific CSS classes.
-Additionally, you may want to add completely custom CSS specific to your content.
-To do this, put your styles in the file `_sass/custom/custom.scss`.
-This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied.
-
-For example, if you'd like to add your own styles for printing a page, you could add the following styles.
-
-#### Example
-{: .no_toc } -->
