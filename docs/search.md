@@ -6,21 +6,21 @@ nav_order: 7
 
 # Troubleshooting
 
-{: .no_toc }
+<!-- {: .no_toc } -->
 
-## Responsive type scale
+<!-- ## Responsive type scale -->
 
-Just the Docs uses a responsive type scale that shifts depending on the viewport size.
+<!-- Just the Docs uses a responsive type scale that shifts depending on the viewport size. -->
 
 | Symptoms              | Probably Cause                   | Action                        |
 |:----------------------|:---------------------------------|:------------------------------|
-| `h1`, `.text-alpha`   | 32px                             | 36px                          |
-| `h2`, `.text-beta`    | 18px                             | 24px                          |
-| `h3`, `.text-gamma`   | 16px                             | 18px                          |
-| `h4`, `.text-delta`   | 14px                             | 16px                          |
-| `h5`, `.text-epsilon` | 16px                             | 18px                          |
-| `h6`, `.text-zeta`    | 18px                             | 24px                          |
-| `body`                | 14px                             | 16px                          |
+| No Project SDK available when creating a new project in IntelliJ.   | No JDK is installed on your machine. | Install a JDK from [Oracle’s website](https://www.oracle.com/java/technologies/downloads/).|
+| GitHub URL is not working when cloning a new project.  | Incorrect URL or type of version control selected.| Ensure Git is selected as the version control type when creating a new project and that an HTTPS URL was copied from GitHub. |
+| Cannot connect to GitHub via IntelliJ.  | Your GitHub account is not connected to IntelliJ. | Login to GitHub through IntelliJ, or create a new authorization token from GitHub’s [personal access tokens page](https://github.com/settings/tokens).                          |
+| My Git commits are not showing up on GitHub.  | Your commit may not have been pushed to GitHub. | After committing, you still need to push your files to the cloud. Click Git on the top menu bar and then select push. Confirm your push and your files should be sent to the GitHub repository on the cloud.|
+| I accidentally committed a file that should not be on GitHub. | You may have check-marked a file unintentionally during the attempted commit using the IntelliJ GUI.| Navigate to GitHub and delete the file from the repository. Then, navigate to IntelliJ and click the blue arrow on the Git menu on the top right of the screen to pull the changes from GitHub.|
+| I don’t see an option to use Code with Me in IntelliJ.| Your version of IntelliJ may not be up to date. | View this guide from Jetbrains to learn how to [update IntelliJ](https://www.jetbrains.com/help/idea/update.html). |
+| My Code with Me guests can’t modify the project we are working on.| The guests likely do not have the proper permissions to access the project.| Ensure that the permissions set for the guests have “Full Access”. Otherwise, guests may not be able to access modify the project.|
 
 ---
 
