@@ -54,10 +54,12 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    A *Share Project On GitHub* window will pop-up.
 
 4. Click on **Add Account** in the *Share Project On GitHub* window.   
-   It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...* to GitHub by authorizing your GitHub account or by generating a token.     
+   It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...*.
+5.  Click on **Log in via GitHub...**    
+<!--    It will bring you to a drop-down menu, giving you the option to *Log in via GitHib...* or *Log in with token...* to GitHub by authorizing your GitHub account or by generating a token.      -->
    
 <code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHib...* option.
-5. Click on **Log in via GitHub...**    
+<!-- 5. Click on **Log in via GitHub...**     -->
    >![addAccount](../assets/images/VSC-images/VSC_7.png)
    
    <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be private. **See top left corner of the *Share Project On GitHub* window.**    
