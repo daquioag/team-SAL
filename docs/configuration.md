@@ -82,7 +82,14 @@ To start this process, there are a few things we need to prepare, namely connect
 8. Click the “Clone” button, and congratulations! You just successfully cloned your first project!
    
    ![new_vcs_5](../assets/images/new_project_img/new_vcs_5.png)
-   
+
+
+## Conclusion
+
+Now that you have learned to create a new local or cloned project, you will be able to start programming! 
+
+For the next steps, try looking for a public project on GitHub and clone it! Cloning existing projects is a great way to learn new technologies and reverse engineer how other programmers have created their applications. 
+
 <!-- Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
 {: .fs-6 .fw-300 }
 
