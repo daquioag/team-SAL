@@ -108,7 +108,7 @@ To confirm that successfully added your GitHub account to your IntelliJ project,
    
    You should be brought back to the **Main IntelliJ Window**.    
 
-3. Press the **commit** tab on the left-hand side edge of the screen.
+3. Press the **Commit** tab on the left-hand side edge of the screen.
    
    >![commitMenu](../assets/images/VSC-images/VSC_11.png)
    
@@ -129,7 +129,7 @@ To confirm that successfully added your GitHub account to your IntelliJ project,
 
 ## How to Check if the project files are uploaded to gitHub.
 
-1. Open your Github repository on a web browser. and click on the file location of the project, which is located on the left-hand side of the commit message list.
+Open your Github repository on a web browser. and click on the file location of the project, which is located on the left-hand side of the commit message list.
 
 >![goToGitHub](../assets/images/VSC-images/VSC_13.png)
 
@@ -168,26 +168,25 @@ A window to create a New personal access token will appear.
 
 4. Enter a name for this token in the textbox under *Note*. For this instruction set, we have given this token the name of "VersionControlDemon".
 
-Select an expiration period from the drop-down menu. This expiration date indicates how long IntelliJ will have access to your GitHub until you need to generate a new token.
+   Select an expiration period from the drop-down menu. This expiration date indicates how long IntelliJ will have access to your GitHub until you need to generate a new token.
+
    ![nameAndExpiration](../assets/images/VSC-images/VSC_25.png)
 
 5. Accept all default values for the options checkboxes, then press the “Generate token” button.
-
    ![nameAndExpiration](../assets/images/VSC-images/VSC_26.png)
 
 
 6. Copy the generated token from GitHub.
 
-  ![nameAndExpiration](../assets/images/VSC-images/VSC_28.png)
+   ![nameAndExpiration](../assets/images/VSC-images/VSC_28.png)
 
-  <code>⚠️ WARNING: </code> Make sure you do not close the GitHub page with the newly generated personal access token without copying it. You won't be able to access that token again, and you will have to generate a new personal access token if you close the window without saving it somewhere.
+   <code>⚠️ WARNING: </code> Make sure you do not close the GitHub page with the newly generated personal access token without copying it. You won't be able to access that token again, and you will have to generate a new personal access token if you close the window without saving it somewhere.
   
-7. Navigate back to IntelliJ and paste the generated token into the “Token” field in the *Add GitHub Account* window.   
-  
-  ![nameAndExpiration](../assets/images/VSC-images/VSC_27.png)
+7. Navigate back to IntelliJ and paste the generated token into the “Token” field in the *Add GitHub Account* window.
+   ![nameAndExpiration](../assets/images/VSC-images/VSC_27.png)
 
 8. Click the **Add Account** button.   
-  ![nameAndExpiration](../assets/images/VSC-images/VSC_29.png)
+   ![nameAndExpiration](../assets/images/VSC-images/VSC_29.png)
   
 To confirm that you successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*. 
 
