@@ -53,8 +53,8 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 
    A pop-up window called *Share Project On GitHub*  will appear.
 
+   <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be 'private'. **See top left corner of the *Share Project On GitHub* window.**       Not checking this check box will make your project 'public'. Making a GitHub project repository 'public' allows for anyone have access to it. Anyone would be able to copy and use the files in the project repository.
 
-   <code>⚠️ ATTENTION: </code> For this instruction set, we have made our project to be 'private'. **See top left corner of the *Share Project On GitHub* window.**       Not checking this check box will make your project 'public'. Making a GitHub project repository 'public' allows for anyone have access to it. Anyone would be able to copy and use the files in the project repository.    
    >![addAccount](../assets/images/VSC-images/VSC_24.png)   
 
 
@@ -66,32 +66,26 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 
 5. Click on **Log in via GitHub...**
 
-   >![addAccount](../assets/images/VSC-images/VSC_7.png)
+   ![addAccount](../assets/images/VSC-images/VSC_7.png)
 
    Aftering clicking on **Log in via GitHub...**, you will be redirected to the following JetBrains web browser.
 
-   >![addAccount](../assets/images/VSC-images/VSC_15.png
+   >![addAccount](../assets/images/VSC-images/VSC_15.png)
 
    Click **Authorize in GitHub** and it will ask you to log into GitHub.
 
    Add in your GitHub log-in information and click on **Sign in**.
-<!-- 5.  Click on **Log in via GitHub...**    
-   >![addAccount](../assets/images/VSC-images/VSC_7.png)
 
-   Aftering clicking on **Log in via GitHub...**, you will be redirected to the following JetBrains web browser.
-      >![addAccount](../assets/images/VSC-images/VSC_15.png)   
-
-   Click **Authorize in GitHub** and it will ask you to log into GitHub.
-   Add in your GitHub log-in information and click on **Sign in**.     -->
    
 6.  Log in using your Github Account.
 
-   >![addAccount](../assets/images/VSC-images/VSC_8.png)
+   ![addAccount](../assets/images/VSC-images/VSC_8.png)
    
-   After logging in, and seeing the *You have been successfully authorized in GitHub* message, you can close the web browser. 
-<code>symbol Warning </code>: If you cannot successfully add your GitHib account by logging in, learn how to add your GitHib account with a [token](https://daquioag.github.io/team-SAL/docs/customization/#generating-a-new-personal-access-token). 
+   After logging in, and seeing the *You have been successfully authorized in GitHub* message, you can close the web browser.
 
-   >![addAccount](../assets/images/VSC-images/VSC_16.png)
+<code>symbol Warning </code>: If you cannot successfully add your GitHib account by logging in, learn how to add your GitHib account with a [token](https://daquioag.github.io/team-SAL/docs/customization/#generating-a-new-personal-access-token).
+
+   ![addAccount](../assets/images/VSC-images/VSC_16.png)
    
 #### You have connected IntelliJ to your GitHub account!
 #### The next steps will show you how to share an InteilliJ project to your Github.
