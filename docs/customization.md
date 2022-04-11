@@ -63,6 +63,7 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    A drop-down menu will appear, showing the options of *Log in via GitHub...* or *Log in with token...*.
 
    <code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHub...* option.
+   Learn how to add your GitHub account with a [token](https://daquioag.github.io/team-SAL/docs/customization/#generating-a-new-personal-access-token).
 
 5. Click on **Log in via GitHub...**
 
@@ -70,14 +71,12 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 
    Aftering clicking on **Log in via GitHub...**, you will be redirected to the following JetBrains web browser.
 
-   >![addAccount](../assets/images/VSC-images/VSC_15.png)
+   ![addAccount](../assets/images/VSC-images/VSC_15.png)
+
+6.  Log in using your Github Account.
 
    Click **Authorize in GitHub** and it will ask you to log into GitHub.
-
    Add in your GitHub log-in information and click on **Sign in**.
-
-   
-6.  Log in using your Github Account.
 
    ![addAccount](../assets/images/VSC-images/VSC_8.png)
    
