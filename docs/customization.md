@@ -65,10 +65,16 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
    <code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHub...* option.
 
 5. Click on **Log in via GitHub...**
-   A drop-down menu will appear, showing the options of *Log in via GitHub...* or *Log in with token...*.
-   <code>⚠️ ATTENTION:  </code>  For this instruction set we are going to add out GitHub account using the *Log in via GitHub...* option.
 
+   >![addAccount](../assets/images/VSC-images/VSC_7.png)
 
+   Aftering clicking on **Log in via GitHub...**, you will be redirected to the following JetBrains web browser.
+
+   >![addAccount](../assets/images/VSC-images/VSC_15.png
+
+   Click **Authorize in GitHub** and it will ask you to log into GitHub.
+
+   Add in your GitHub log-in information and click on **Sign in**.
 <!-- 5.  Click on **Log in via GitHub...**    
    >![addAccount](../assets/images/VSC-images/VSC_7.png)
 
