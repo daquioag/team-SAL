@@ -32,7 +32,6 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 ## Adding Version Control to a project through IntelliJ
   
 
-
 1. Press <code>⊞ Win</code> and type IntelliJ into the search bar, click the IntelliJ icon to open the application.  
  On Mac, press <code>cmd</code> + <code>space</code> and type in IntelliJ, press enter to open the application.
    
@@ -91,8 +90,13 @@ Create a [JetBrains account](https://account.jetbrains.com/login) if you do not 
 
 
 ## Share a Java Project to your Github
-Navtigate back to IntelliJ, and you will see the the *Share Project On GitHub* window in IntelliJ.   
-To confirm that successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*.    
+
+Navtigate back to IntelliJ, and you will see the the *Share Project On GitHub* window in IntelliJ.
+
+To confirm that successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*.
+
+   ![chooseProject](../assets/images/VSC-images/VSC_32.png)
+    
 
 1. Press the **Share** button in the *Share Project On GitHub* window.
    
@@ -145,15 +149,6 @@ You should be able to see 4 things:
 
 ---
 
-### Conclusion
-
-In this article, we have explined the process of how to add version control to a local project through IntelliJ. During this explanation, we went over how to create a project reposiutory, connect your IntelliJ with GitHub, and push your local project repository to an online repository on gitHub.
-    
-You have successfully added version control to a project!    
-Adding version control to a local project allows you to keep track of changes, bug mises or  new additions made by you or by team mbmers.
-THes changes are saved to the online repositry on Github, where you will be able to review any and all changes that were committed and pushed to the online repository. 
-
-
 ## Generating a New Personal Access Token
 
 1. Click on the **Log in with token..** button.   
@@ -188,12 +183,24 @@ A window to create a New personal access token will appear.
 8. Click the **Add Account** button.   
    ![nameAndExpiration](../assets/images/VSC-images/VSC_29.png)
   
-To confirm that you successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*. 
+To confirm that you successfully added your GitHub account to your IntelliJ project, you have should see your GitHub account URL in the text labeled *Share by*.
+
+   ![chooseProject](../assets/images/VSC-images/VSC_32.png)
 
 
 #### You’ve successfully connected IntelliJ to your GitHub account with a token!
 
 Resume the rest of this instruction set [here](https://daquioag.github.io/team-SAL/docs/customization/#share-a-java-project-to-your-github)!
+
+
+### Conclusion
+
+In this article, we have explined the process of how to add version control to a local project through IntelliJ. During this explanation, we went over how to create a project reposiutory, connect your IntelliJ with GitHub, and push your local project repository to an online repository on gitHub.
+    
+You have successfully added version control to a project!    
+Adding version control to a local project allows you to keep track of changes, bug mises or  new additions made by you or by team mbmers.
+THes changes are saved to the online repositry on Github, where you will be able to review any and all changes that were committed and pushed to the online repository. 
+
 
 
 
