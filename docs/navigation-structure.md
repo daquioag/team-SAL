@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code With Me
+title: Using the Code With Me Feature
 nav_order: 4
 ---
 
@@ -12,23 +12,28 @@ nav_order: 4
 ## Overview
 
    Code With Me is a feature in IntelliJ and other JetBrains IDEs that enables developers to collaborate on a project. This is achieved by giving one or more developers access to the development environment that a host developer is working on. The participants can view, edit and run code based on the level of access that the host has given them. The Code With Me feature enables developers to pair-program or review each other's code with ease.
-   
+---
+## Table of Conent
+- [Setting Up the Code With Me Environment](#part1)
+- [Hosting a Code With Me Session](#part2)
+- [Joining a Code With Me Session as a Guest](#part3)
+- [Conclusion](#part4)
 ---
 
-## Setting Up the Code With Me Environment 
+## Setting Up the Code With Me Environment <a name="part1"></a>
    One person who has the IntelliJ IDE installed and running on their device needs to become the host to enable this feature. The host computer is the device that holds the project files and is used to execute the project.
    
 ---
 
-## Hosting a Code With Me Session
+## Hosting a Code With Me Session <a name="part2"></a>
 
    You first need to open a project or create a new one to host a session. Check out this [link](https://daquioag.github.io/team-SAL/docs/configuration/) for instructions.
 
    Once you have your IDE open, locate the top-right toolbar
-
+   
    ![Figure 1](../assets/images/code_with_me/figure1.png)
-
-
+   
+   
 1. From the toolbar, open the Code With Me dropdown menu by clicking on the icon of two people.
    
    ![Figure 2](../assets/images/code_with_me/figure2.png)
@@ -67,7 +72,7 @@ nav_order: 4
    
 ---
    
-## Joining a Code With Me Session as a Guest
+## Joining a Code With Me Session as a Guest <a name="part3"></a>
    
 1. Upon receiving the Code With Me invitation link from a host, input it into a web browser by pasting it into the address bar and pressing Enter.
    
@@ -85,6 +90,6 @@ nav_order: 4
    
 ---
    
-## Conclusion
+## Conclusion <a name="part4"></a>
 
 Now that you have mastered how to use IntelliJ's Code With Me, collaborating with team members to work on projects together will be streamlined. Use Code With Me to debug, perform pair programming, or simply show off your code! We encourage you to use Code With Me to become better programmers together!
